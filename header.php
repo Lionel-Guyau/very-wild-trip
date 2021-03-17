@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/script.css" >
     <link rel="stylesheet" href="css/trip.css" >
     <link rel="stylesheet" href="css/about.css" >
+    <link rel="stylesheet" href="css/formTrip.css" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     
