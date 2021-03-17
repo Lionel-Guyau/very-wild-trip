@@ -20,10 +20,10 @@
   <input id="nav-toggle" type="checkbox" class="hidden" />
     <nav>
         <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Votre Wild Trip !</a></li>
-        <li><a href="#">Nos voyages</a></li>
-        <li><a href="#">Qui sommes-nous ?</a></li>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a href="formTrip.php">Votre Wild Trip !</a></li>
+        <li><a href="trip.php">Nos voyages</a></li>
+        <li><a href="about.php">Qui sommes-nous ?</a></li>
         </ul>
     </nav>
 </header>

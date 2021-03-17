@@ -1,0 +1,13 @@
+.descript:first-letter{
+    font-size: 100px;
+    display: block;
+    float: left;
+    line-height: 0.5;
+    margin: 15px 15px 10px 0;
+  }
+  .descript{
+      font-size: 1rem;
+      width:40%;
+      margin: auto;
+      font-family: "Lato", sans-serif;
+  } 
