@@ -1,12 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php
+include("header.php");
+?>
+
+<h2>Notre Top 5 !</h2>
+    <section class="main-cards">
+      <div class="bigCard tiltEffect">
+        <h3>Voyage 1</h3>
+        <span id="Voyage1"></span>
+      </div>
+      <div class="bigCard tiltEffect">
+        <h3>Voyage 2</h3>
+        <span id="Voyage2"></span>
+      </div>
+      <div class="bigCard tiltEffect">
+        <h3>Voyage 3</h3>
+        <span id="Voyage3"></span>
+      </div>
+      <div class="bigCard tiltEffect">
+        <h3>Voyage 4</h3>
+        <span id="Voyage4"></span>
+      </div>
+      <div class="bigCard tiltEffect">
+        <h3>Voyage 5</h3>
+        <span id="Voyage5"></span>
+      </div>
+    </section>
+
+
+
+
+
+
+<?php
+include("footer.php");
+?>
+
