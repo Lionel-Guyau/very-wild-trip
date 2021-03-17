@@ -26,7 +26,23 @@ a {
   text-decoration: none;
 }
 
-/* -- Start Hamburger Menu Code -- */
+footer {
+  align-items: center;
+  font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+
+footer img {
+  margin-left: 0.5rem;
+  max-width: 70px;
+}
+footer span {
+  margin: 0 0.2rem;
+  font-weight: 700;
+} /* -- Start Hamburger Menu Code -- */
 
 header {
   width: 100%;
