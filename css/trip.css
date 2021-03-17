@@ -1,0 +1,14 @@
+.picturesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+img {
+    margin-bottom: 20px;
+}
+
+.tripTitle {
+    text-align: center;
+}
+
