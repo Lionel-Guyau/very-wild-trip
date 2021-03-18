@@ -1,0 +1,115 @@
+/* cards */
+
+.card-list{
+    padding: 0;
+    margin: 0;
+    /* background-color: #c36678; */
+    color:#dfa5b0;
+    text-align: unset;
+    display: flex;
+    padding: 3rem;
+    height: 85%;
+    /* overflow-x: scroll ; */
+}
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 650px;
+    width: 80%;
+    min-width: 200px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #c36678;
+    box-shadow: -2rem 0 7rem #a4334b;
+    text-align: center;
+    
+    transition: .2s;
+}
+.profil-name,h3{
+    font-size: 1.5em;
+}
+.profil-image,img{
+    border-radius: 50%;
+}
+.profil-body{
+    max-height: 500px;   
+}
+
+
+/* scrollbar options  */
+
+/* .card-list::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb{
+    background: #a4334b;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px gray;
+}
+.card-list::-webkit-scrollbar-track{
+    background: linear-gradient(90deg, rgba(164,51,75,1) 0%, rgba(195,102,120,1) 35%, rgba(223,165,176,1) 100%);
+} */
+
+
+/* card reactions */
+
+.card:hover{
+    transform: translateY(-2rem);
+}
+.card:hover~.card{
+    transform: translateX(40px);
+}
+.card:not(:first-child){
+    margin-left: -70px;
+}
+
+
+/* Media responsive powa */
+
+@media (max-width:880px){
+    .card {
+        flex-direction: row;
+        margin: 0;
+        max-height: 350px;
+        transform: translateY(10px);
+    }
+    .card-list {
+        display:list-item ;
+        padding-left: 0 ;
+        height: auto;
+
+    }
+    .card:hover{
+        transform: translateX(10%);
+    }
+    .card:hover~.card{
+        transform: translateY(0px);
+    }
+    .card:not(:first-child){
+        margin-left: 0px;
+    }
+    .profil-body,p,h3 {
+        text-align: left;
+        margin-left: 15px;
+        font-size: .8em;
+    }
+    .profil-sidebar,img{
+        padding-top: 30px;
+    }
+    .profil-sidebar,div{
+        max-height: 70px;
+    }
+    .profil-image,img{
+        max-width: 70px;
+        max-height: 70px;
+    }
+    
+}
+
+
+
+/* --darkColor: #a4334b;
+--mediumColor: #c36678;
+--lightColor: #dfa5b0; */

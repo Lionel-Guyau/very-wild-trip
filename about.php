@@ -1,14 +1,62 @@
 <?php
 include("header.php");
 ?>
+<section class="card-list">
+
+  <article class="card">
+    <div class="profile-sidebar">
+      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random1" alt="">
+    </div>
+    <div class="profile-main">
+      <h3 class="profile-name" >Léa M</h3>
+      <p class="profile-position">Web Developer</p>
+      <p class="profile-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+      </p>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="profile-sidebar">
+      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random2" alt="">
+    </div>
+    <div class="profile-main">
+      <h3 class="profile-name" >Lionel G</h3>
+      <p class="profile-position">Web Developer</p>
+      <p class="profile-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+      </p>
+    </div>
+  </article>
+  
+  <article class="card">
+    <div class="profile-sidebar">
+      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random3" alt="">
+    </div>
+    <div class="profile-main">
+      <h3 class="profile-name" >Emmanuel</h3>
+      <p class="profile-position">Web Developer</p>
+      <p class="profile-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+      </p>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="profile-sidebar">
+      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random4" alt="">
+    </div>
+    <div class="profile-main">
+      <h3 class="profile-name" >Quentin</h3>
+      <p class="profile-position">Web Developer</p>
+      <p class="profile-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+      </p>
+    </div>
+  </article>
 
 
-<p class="descript">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi error inventore vel consequatur assumenda, quidem alias nostrum fugiat beatae, aliquid minus voluptatum libero ratione magni voluptatibus? Quia assumenda animi totam!
-Incidunt omnis cumque quo ipsum pariatur illum, modi aspernatur dolores, labore dolorem ex itaque fugit corrupti odio! Porro temporibus cumque asperiores, voluptas, pariatur ducimus voluptate commodi esse assumenda accusantium facilis.
-Cupiditate impedit illum quis fuga amet possimus eaque qui explicabo officia eos assumenda doloremque, soluta aspernatur voluptatum expedita autem. Impedit, esse! Quod, dignissimos quibusdam? Enim molestias cumque pariatur eos doloremque!
-</p>
-
-
+</section>
 
 
 
