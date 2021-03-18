@@ -68,7 +68,7 @@ include("header.php");
 <section class="main-cards">
     <div class="Card">
         <div>
-            <img src="images/barcelona-city-view.jpg" width="300px" height="300px">
+            <<img src="images/barcelona-city-view.jpg" width="300px" height="300px">
         </div>
         <span id="Voyage1"></span>
     </div>
