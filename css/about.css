@@ -29,7 +29,7 @@
 .profil-name,h3{
     font-size: 1.5em;
 }
-.profil-image,img{
+img.profile-image{
     border-radius: 50%;
 }
 .profil-body{
@@ -101,7 +101,7 @@
     .profil-sidebar,div{
         max-height: 70px;
     }
-    .profil-image,img{
+    img.profil-image{
         max-width: 70px;
         max-height: 70px;
     }
