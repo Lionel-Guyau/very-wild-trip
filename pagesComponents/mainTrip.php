@@ -2,9 +2,13 @@
 
 include('destinations_data.php');
 
-foreach($destinations as $destination => $content) 
-{
-    echo $destination . '</br>' . $content['image'] . '</br>';
-    
 
-};
+"<div class='picturesContainer'>";
+
+    foreach($destinations as $destination => $content) 
+    {
+        echo "<h2 class='picturesTitle'> $destination </h2> " . $content['image'];
+    }
+
+"</div>"; 
+    
