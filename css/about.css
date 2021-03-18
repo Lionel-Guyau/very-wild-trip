@@ -8,15 +8,11 @@
     text-align: unset;
     display: flex;
     padding: 3rem;
-    /* height: 85%; */
-    /* overflow-x: scroll ; */
 }
 .card{
     display: flex;
     position: relative;
     flex-direction: column;
-    /* height: 650px; */
-    width: 80%;
     min-width: 200px;
     padding: 1.5rem;
     border-radius: 16px;
@@ -61,13 +57,16 @@ img.profile-image{
 
 .card:hover{
     transform: translateY(-2rem);
+    transform: scale(1.1);
 }
 .card:hover~.card{
-    transform: translateX(40px);
+    transform: translateX(55px);
+    
 }
+
 .card:not(:first-child){
     margin-left: -70px;
-}
+}  
 
 
 /* Media responsive powa */
@@ -85,7 +84,7 @@ img.profile-image{
 
     }
     .card:hover{
-        transform: translateX(10%);
+        transform: translateX(7%);
     }
     .card:hover~.card{
         transform: translateY(0px);
