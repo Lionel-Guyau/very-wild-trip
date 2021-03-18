@@ -95,6 +95,16 @@ footer span {
   align-items: center;
 }
 
+.toptrips {
+  margin: 10px;
+  width: 30%;
+  height: 100%;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 /* Menu Burger Code (only for mobile mode) */
 
