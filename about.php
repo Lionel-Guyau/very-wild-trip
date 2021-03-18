@@ -34,7 +34,7 @@ include("header.php");
       <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random3" alt="">
     </div>
     <div class="profile-main">
-      <h3 class="profile-name" >Emmanuel</h3>
+      <h3 class="profile-name" >Emmanuel R</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
@@ -47,7 +47,7 @@ include("header.php");
       <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random4" alt="">
     </div>
     <div class="profile-main">
-      <h3 class="profile-name" >Quentin</h3>
+      <h3 class="profile-name" >Quentin B</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.

@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     /* background-color: #c36678; */
-    color:#dfa5b0;
+    color:var(--lightColor);
     text-align: unset;
     display: flex;
     padding: 3rem;
@@ -20,8 +20,8 @@
     min-width: 200px;
     padding: 1.5rem;
     border-radius: 16px;
-    background: #c36678;
-    box-shadow: -2rem 0 7rem #a4334b;
+    background: var(--mediumColor);
+    box-shadow: -2rem 0 7rem var(--darkColor);
     text-align: center;
     
     transition: .2s;
@@ -110,6 +110,6 @@
 
 
 
-/* --darkColor: #a4334b;
---mediumColor: #c36678;
---lightColor: #dfa5b0; */
+/* var(--darkColor): #a4334b;
+var(--mediumColor): #c36678;
+var(--lightColor): #dfa5b0; */
