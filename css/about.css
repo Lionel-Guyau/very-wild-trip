@@ -8,14 +8,14 @@
     text-align: unset;
     display: flex;
     padding: 3rem;
-    height: 85%;
+    /* height: 85%; */
     /* overflow-x: scroll ; */
 }
 .card{
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 650px;
+    /* height: 650px; */
     width: 80%;
     min-width: 200px;
     padding: 1.5rem;
@@ -26,8 +26,11 @@
     
     transition: .2s;
 }
-.profil-name,h3{
+.profil-name{
     font-size: 1.5em;
+}
+.profile-main p{
+    font-size: ;
 }
 img.profile-image{
     border-radius: 50%;
@@ -35,6 +38,7 @@ img.profile-image{
 .profil-body{
     max-height: 500px;   
 }
+
 
 
 /* scrollbar options  */
@@ -70,9 +74,8 @@ img.profile-image{
 
 @media (max-width:880px){
     .card {
-        flex-direction: row;
         margin: 0;
-        max-height: 350px;
+        /* max-height: 350px; */
         transform: translateY(10px);
     }
     .card-list {
@@ -90,20 +93,25 @@ img.profile-image{
     .card:not(:first-child){
         margin-left: 0px;
     }
-    .profil-body,p,h3 {
-        text-align: left;
+    .profile-main h3,
+    .profile-main p
+     {
+        text-align: center;
         margin-left: 15px;
-        font-size: .8em;
+        /* font-size: .8em; */
+
     }
-    .profil-sidebar,img{
+    
+    
+    .profile-sidebar{
         padding-top: 30px;
     }
-    .profil-sidebar,div{
+    .profile-sidebar div{
         max-height: 70px;
     }
-    img.profil-image{
-        max-width: 70px;
-        max-height: 70px;
+    img.profile-image{
+        width: 100px;
+        height: 100px;
     }
     
 }
