@@ -1,39 +1,12 @@
 <?php
 
-$destinationPictures = [
-    'London',
-    'Berlin',
-    'Barcelona',
-    'Lisboa',
-    'Paris',
-    'Toulouse',
-    'Dublin',
-    'Tokyo',
-    'Pekin',
-    'Sydney',
-    'Moscov',
-    'Tarkov',
-    'Rio',
-    'Los Angeles',
-    'Cuba',
-    'Roma',
-    'Bruxelle',
-    'Rabat',
-    'Johannesburg',
-    'Le Caire',
-    'Ouagadougou',
-    'Bangkok',
-    'Pyongyang',
-    'Seoul'
-];
-?>
+include('destinations_data.php');
 
-<h1 class="tripTitle"> Our destination !!!</h1>
-<div class='picturesContainer'>
 
-    <?php
-        foreach($destinationPictures as $destinationPicture) 
-        {
-            echo "<img src='https://picsum.photos/200/300'>";
-        }
-    ?>
+
+
+foreach($destinations as $destination => $content) 
+{
+        echo "<div class='picturesContainer'><h2 class='picturesTitle'> $destination </h2> " .$content['image'] . "</div>";
+}
+
