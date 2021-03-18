@@ -1,13 +1,12 @@
 <?php
 include("header.php");
-?>
 
 
 
 
+include("pagesComponents/mainTrip.php");
 
 
 
-<?php
+
 include("footer.php");
-?>
