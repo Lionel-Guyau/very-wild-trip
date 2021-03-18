@@ -178,8 +178,8 @@ header label:focus {
   }
 }
 
-/* .hidden {
+.hidden {
   position: fixed;
   top: -100%;
   left: -100%;
-} */
+}
