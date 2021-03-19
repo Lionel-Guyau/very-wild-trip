@@ -47,6 +47,13 @@
     margin: 0.5rem auto;
     margin-top: 1rem;
     transition: 0.4s;
+  
+  }
+  .form-trip{
+    flex-grow: 1;
+    background-image: url(../images/cloud-sky.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /* hover : permet de faire un changement au passage de la souris */
