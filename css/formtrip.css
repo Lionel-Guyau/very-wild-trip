@@ -9,6 +9,13 @@
     max-width: 25%;
   }
   
+  .formtrip-body{
+    background-image: url(../images/cloud-sky.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+  }
+  
   form div {
     display: flex;
     align-items: center;
@@ -95,3 +102,4 @@
     form {
        max-width: 100%;
     }
+  } 
