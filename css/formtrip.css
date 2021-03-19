@@ -1,3 +1,7 @@
+  /* --------------*/
+  /* Le formulaire */
+  /* --------------*/
+
   form {
     display: flex;
     flex-flow: column wrap;
@@ -51,6 +55,11 @@
     color: var(--lightColor);
   }
   
+
+  /* --------------*/
+  /* Les cartes    */
+  /* --------------*/
+
   .main-cards {
     display: flex;
     flex-flow: row wrap;

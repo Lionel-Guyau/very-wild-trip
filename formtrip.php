@@ -1,7 +1,10 @@
 <?php
 include("header.php");
-// var_dump($_GET);
 ?>
+
+<!-----------------
+-- Le formulaire --
+------------------>
 
 <form>
     <div>
@@ -63,8 +66,14 @@ include("header.php");
         </select>
     </div>
 
-    <input type="submit" id="submit" value="Devis" />
+    <input type="submit" id="submit" value="Mes choix" />
 </form>
+
+
+<!-----------------
+--  Les cartes   --
+------------------>
+
 
 <section class="main-cards">
     <?php if (!empty($_GET['budget'])) { ?>
