@@ -1,14 +1,5 @@
-/* :root {
-    --Color: #a4334b;
-    --mediumColor: #c36678;
-    --lightColor: #dfa5b0;
-    --HoverElement: black;
-  } */
-  
   form {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
     flex-flow: column wrap;
     padding: 2rem 1rem;
     max-width: 25%;
@@ -85,7 +76,7 @@
   }
   
   /* Rotation */
-  .Card div img {
+  .card div img {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }

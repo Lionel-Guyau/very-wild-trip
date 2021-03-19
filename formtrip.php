@@ -68,14 +68,19 @@ include("header.php");
 
 <section class="main-cards">
     <?php if (!empty($_GET['budget'])) { ?>
-        <div class="Card">
+        <div class="card">
             <div>
                 <img src="images/barcelona-city-view.jpg" width="300px" height="300px">
             </div>
             <span id="Voyage1"></span>
         </div>
     <?php } ?>
-    <div class="Card">
+
+
+
+
+
+    <!-- <div class="Card">
         <div>
             <img src="images/white-buildings-with-red-roofs.jpg" width="300px" height="300px">
         </div>
@@ -128,7 +133,7 @@ include("header.php");
             <img src="images/lush-green-forest-and-a-small-waterfront-town.jpg" width="300px" height="300px">
         </div>
         <span id="Voyage10"></span>
-    </div>
+    </div> -->
 </section>
 
 
