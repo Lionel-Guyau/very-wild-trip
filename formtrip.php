@@ -29,8 +29,6 @@ include("header.php");
             <option value="2">1</option>
             <option value="3">2</option>
             <option value="4">3</option>
-            <option value="5">4</option>
-            <option value="6">5</option>
         </select>
     </div>
     <div>
@@ -61,8 +59,8 @@ include("header.php");
             <option value="">En nombre de jour</option>
             <option value="1">Week-end (2 jours)</option>
             <option value="2">Semaine (7 jours)</option>
-            <option value="2">Semaine (14 jours)</option>
-            <option value="3">Mois (30 jours)</option>
+            <option value="3">Semaine (14 jours)</option>
+            <option value="4">Mois (30 jours)</option>
         </select>
     </div>
 
