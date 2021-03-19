@@ -12,7 +12,7 @@ $destinations = [
         'image' => "<img src='../images/destinations_images/Berlin.jpeg/200/300'>",
         'costByDay' => '',
         'changeOfScenery' => '',
-        'wheather' => ''    
+        'wheather' => ''
     ],
 
     'Barcelona' => [
