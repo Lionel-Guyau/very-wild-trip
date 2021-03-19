@@ -3,7 +3,6 @@
 .card-list{
     padding: 0;
     margin: 0;
-    /* background-color: #c36678; */
     color:var(--darkestColor);
     text-align: unset;
     display: flex;
@@ -15,24 +14,23 @@
 }
 .card{
     display: flex;
-    position: relative;
+    /* position: relative; */
     flex-direction: column;
     min-width: 200px;
     padding: 1.5rem;
     border-radius: 16px;
     background: var(--mediumColor);
+    opacity: 90%;
     box-shadow: -2rem 0 7rem var(--darkColor);
     text-align: center;
-    
-    transition: .2s;
+    transition: .5s;
 }
 .profil-name{
     font-size: 1.5em;
 }
-.profile-main p{
-}
 img.profile-image{
     border-radius: 50%;
+    opacity: 100%;
 }
 .profil-body{
     max-height: 500px;
@@ -62,6 +60,8 @@ img.profile-image{
 .card:hover{
     transform: translateY(-2rem);
     transform: scale(1.1);
+    opacity: 100%;
+    
 }
 .card:hover~.card{
     transform: translateX(55px);
@@ -71,8 +71,9 @@ img.profile-image{
 .card:not(:first-child){
     margin-left: -70px;
 }  
-
-
+.card:active{
+    transform: scale(1.2);
+}
 /* Media responsive powa */
 
 @media (max-width:880px){
