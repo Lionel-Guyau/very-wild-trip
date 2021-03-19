@@ -16,6 +16,8 @@
 .picturesContainer h2 {
   display: block;
   margin-bottom: 5px;
+  color: var(--lightColor);
+  text-shadow: black 1px 0 10px  ;
 }
 
 .tripPage {
@@ -24,4 +26,6 @@
   justify-content: center;
   align-content: center;
   background-image: url(../images/cloud-sky.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
