@@ -77,7 +77,7 @@ include("header.php");
 
 <section class="main-cards">
     <?php if (!empty($_GET['budget'])) { ?>
-        <div class="card">
+        <div class="card-trip">
             <div>
                 <img src="images/destinations_images/Bangkok.jpeg" width="300px" height="300px">
             </div>

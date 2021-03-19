@@ -66,7 +66,7 @@
     max-width: 100%;
   }
   
-  .card {
+  .card-trip {
     display: flex;
     align-items: center;
     background-color: var(--LightGrayishBlueBgElement);
