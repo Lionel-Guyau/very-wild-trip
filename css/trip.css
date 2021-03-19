@@ -1,17 +1,19 @@
 .picturesContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
- }
-
-img {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.tripTitle {
-    text-align: center;
+.picturesContainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
+.picturesContainer h2 {
+  display: block;
+  margin-bottom: 5px;
+}

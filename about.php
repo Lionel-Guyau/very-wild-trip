@@ -5,7 +5,7 @@ include("header.php");
 
   <article class="card">
     <div class="profile-sidebar">
-      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random1" alt="">
+      <img class="profile-image" src="images/Léa.jpg" alt="">
     </div>
     <div class="profile-main">
       <h3 class="profile-name" >Léa M</h3>
@@ -18,7 +18,7 @@ include("header.php");
 
   <article class="card">
     <div class="profile-sidebar">
-      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random2" alt="">
+      <img class="profile-image" src="images/lionel.jpg" alt="">
     </div>
     <div class="profile-main">
       <h3 class="profile-name" >Lionel G</h3>
@@ -31,7 +31,7 @@ include("header.php");
   
   <article class="card">
     <div class="profile-sidebar">
-      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random3" alt="">
+      <img class="profile-image" src="images/Manu.jpg" alt="">
     </div>
     <div class="profile-main">
       <h3 class="profile-name" >Emmanuel R</h3>
@@ -44,7 +44,7 @@ include("header.php");
 
   <article class="card">
     <div class="profile-sidebar">
-      <img class="profile-image" src="https://picsum.photos/125/125?grayscale?random4" alt="">
+      <img class="profile-image" src="images/Quentin.jpg" alt="">
     </div>
     <div class="profile-main">
       <h3 class="profile-name" >Quentin B</h3>
