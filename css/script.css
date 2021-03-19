@@ -58,7 +58,12 @@ p {
 a {
   text-decoration: none;
 }
-
+.logo-button{
+  margin: 0;
+  padding: 0;
+  float: left;
+  display:block;
+}
 
 /* Footer code */
 
@@ -162,6 +167,7 @@ nav ul {
   padding: 0;
   list-style: none;
   display: block;
+  float: right;
 }
 nav li {
   display: block;
@@ -196,7 +202,7 @@ header label:focus {
   }
   nav {
     background: transparent;
-    float: right;
+    /* float: right; */
     border: 0 !important;
     max-height: none;
   }
