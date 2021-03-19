@@ -70,7 +70,7 @@ include("header.php");
     <?php if (!empty($_GET['budget'])) { ?>
         <div class="card">
             <div>
-                <img src="images/barcelona-city-view.jpg" width="300px" height="300px">
+                <img src="images/destinations_images/Bangkok.jpeg" width="300px" height="300px">
             </div>
             <span id="Voyage1"></span>
         </div>

@@ -47,7 +47,7 @@
   
   /* hover : permet de faire un changement au passage de la souris */
   form #submit:hover {
-    background-color: var(--Color);
+    background-color: var(--darkColor);
     color: var(--lightColor);
   }
   
@@ -57,7 +57,7 @@
     max-width: 100%;
   }
   
-  .Card {
+  .card {
     display: flex;
     align-items: center;
     background-color: var(--LightGrayishBlueBgElement);
@@ -74,18 +74,7 @@
     text-align: center;
     transition: 0.4s;
   }
-  
-  /* Rotation */
-  .card div img {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-  
-  .Card div:hover img {
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
-  
+
   @media (max-width: 700px) {
     form {
        max-width: 100%;
