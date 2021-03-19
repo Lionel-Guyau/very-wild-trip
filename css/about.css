@@ -4,10 +4,14 @@
     padding: 0;
     margin: 0;
     /* background-color: #c36678; */
-    color:var(--lightColor);
+    color:var(--darkestColor);
     text-align: unset;
     display: flex;
-    padding: 3rem;
+    padding: 5rem;
+    flex-grow: 1;
+    background-image: url(../images/cloud-sky.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card{
     display: flex;
@@ -26,13 +30,13 @@
     font-size: 1.5em;
 }
 .profile-main p{
-    font-size: ;
 }
 img.profile-image{
     border-radius: 50%;
 }
 .profil-body{
-    max-height: 500px;   
+    max-height: 500px;
+    max-width: 20%;   
 }
 
 
