@@ -12,6 +12,9 @@ echo "<div class='picturesContainer'>
                 "<div class='destinationImage'>" .
                         $content['image'] . 
                 "</div>
+                <div class='descriptionParagraph'>" . 
+                        $content['description'] . 
+                "</div>                
         </div>";                    
 }
 
