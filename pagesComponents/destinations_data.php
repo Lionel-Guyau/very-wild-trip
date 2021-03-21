@@ -35,7 +35,7 @@ $destinations = [
         'description' => "<p>Barcelone propose une multitude d’activités de loisirs qui invitent ses visiteurs à y venir plus d’une fois. Ouverte sur la mer Méditerranée et célèbre pour Gaudí et son architecture moderniste, Barcelone est l’une des capitales européennes les plus trendy.</p>",    
     ],
 
-    'Lisboa' => [
+    'Lisbone' => [
         'image' => "<img src='../images/destinations_images/Lisboa.jpeg/200/300'>",
         'costByDay' => 70,
         'changeOfScenery' => 1,

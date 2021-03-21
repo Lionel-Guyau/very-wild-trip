@@ -15,7 +15,7 @@ echo "<div class='picturesContainer'>
                 <div class='descriptionParagraph'>" . 
                         $content['description'] . 
                 "</div>                
-        </div>";                    
+        </div>";    
 }
 
 echo "<?div>";
