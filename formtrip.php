@@ -1,66 +1,62 @@
 <?php
 include("header.php");
+include("pagesComponents/destinations_data.php");
 ?>
 
+
 <!-----------------
--- Le formulaire --
+--    The Form   --
 ------------------>
 <div class="formtrip-body">
-    <form>
+    <form action="formtrip.php" method="POST">
         <div>
             <label for="inputTrip">Votre budget</label>
-            <select name="budget" id="selectBudget">
-                <option value="">En Euro jour/pers</option>
-                <option value="1">0€ - 500€</option>
-                <option value="2">500€ - 1000€</option>
-                <option value="3">1000€ - 1500€</option>
-                <option value="4">1500€ - 2000€</option>
-                <option value="5">2000€ - 2500€</option>
-                <option value="6">2500€ - ....€</option>
-            </select>
-
-
+            <input type="number" name="budget" id="inputTrip">
+            <!-- <option value="">En Euro jour/pers</option>
+            <option value="1">0€ - 150€</option>
+            <option value="2">150€ - 300€</option>
+            <option value="3">300€ - 1000€</option> -->
+            <!-- </select> -->
         </div>
         <div>
             <label for="inputDepaysement">Votre degré de dépaysement</label>
-            <select name="depay" id="selectDepay">
-                <option value="">Choix de 0 à 5</option>
-                <option value="1">0</option>
-                <option value="2">1</option>
-                <option value="3">2</option>
-                <option value="4">3</option>
+            <select name="depay" id="inputDepaysement">
+                <option value="">Choix de 0 à 3</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
             </select>
         </div>
         <div>
             <label for="inputClimat">Dans quel coin du globe</label>
-            <select name="climat" id="selectClimat">
+            <select name="climat" id="inputClimat">
                 <option value="">Choix du climat</option>
-                <option value="1">Froid</option>
-                <option value="2">Chaud</option>
-                <option value="3">Tempéré</option>
-                <option value="4">Polaire</option>
-                <option value="5">Humide</option>
-                <option value="6">Aride</option>
+                <option value="Froid">Froid</option>
+                <option value="Chaud">Chaud</option>
+                <option value="Tempéré">Tempéré</option>
+                <option value="Polaire">Polaire</option>
+                <option value="Humide">Humide</option>
+                <option value="Aride">Aride</option>
             </select>
         </div>
         <div>
             <label for="inputPerson">Nombre de personne</label>
-            <select name="person" id="selectPerson">
+            <select name="person" id="inputPerson">
                 <option value="">De 1 à 4</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
             </select>
         </div>
         <div>
             <label for="inputDuree">Quelle durée</label>
-            <select name="duree" id="selectDuree">
+            <select name="duree" id="inputDuree">
                 <option value="">En nombre de jour</option>
-                <option value="1">Week-end (2 jours)</option>
-                <option value="2">Semaine (7 jours)</option>
-                <option value="3">Semaine (14 jours)</option>
-                <option value="4">Mois (30 jours)</option>
+                <option value=2>Week-end (2 jours)</option>
+                <option value=7>Semaine (7 jours)</option>
+                <option value=14>Semaine (14 jours)</option>
+                <option value=30>Mois (30 jours)</option>
             </select>
         </div>
 
@@ -69,86 +65,47 @@ include("header.php");
 
 
 
-<!-----------------
---  Les cartes   --
+    <!----------------
+--   The cards   --
 ------------------>
 
+    <!-- <?php
+            echo "<div class ='tripPage'>";
 
-    <section class="main-cards">
+            foreach ($destinations as $destination => $content) {
+                echo "<div class='picturesContainer'>
+         <h2> $destination </h2> " .
+                    "<div class='destinationImage'>" .
+                    $content['image'] .
+                    "</div>
+                <div class='descriptionParagraph'>" .
+                    $content['description'] .
+                    "</div>                
+        </div>";
+            }
 
-        <?php if ($_GET['budget'] == 1) { ?>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Bruxelle.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Paris.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Toulouse.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-        <?php } ?>
+            echo "<?div>";
+            ?> -->
 
+    <?php
 
-        <?php if ($_GET['budget'] == 2) { ?>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Berlin.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/London.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Roma.jpeg" width="300px" height="300px">
-                </div>
-            </div>
+    echo "<div class='formResult'>";
 
+    foreach ($destinations as $destination => $content) {
+        if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
+            $calcul = ($content['costByDay'] * $_POST['person']);
+            echo "<div class='cardResult'>" .
+                "<h3>$destination</h3>" .
+                $content['image'] .
+                $content['description'] .
+                "<p>Coût par jour par personne : {$content['costByDay']} € </br>
+                            Coût par jour pour le groupe : {$calcul} € </br>
+                            Climat : {$content['wheather']} | Dépaysement : {$content['changeOfScenery']}</p>" .
+                "</div>";
+        } else {
+            echo "<h4>Désolé nous n'avons rien pour vous !</h4><br>";
+        }
+    }
 
-        <?php } ?>
-
-
-        <?php if ($_GET['climat'] == 2) { ?>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Rio.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Sydney.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Cuba.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-
-
-        <?php } ?>
-
-
-        <?php if ($_GET['climat'] == 4) { ?>
-            <div class="card-trip">
-                <div>
-                    <img src="images/destinations_images/Moscov.jpeg" width="300px" height="300px">
-                </div>
-            </div>
-        <?php } ?>
-
-    </section>
-</div>
-
-
-<?php
-include("footer.php");
-?>
+    echo "</div>";
+    ?>
