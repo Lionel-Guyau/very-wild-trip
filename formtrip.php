@@ -31,12 +31,12 @@ include("pagesComponents/destinations_data.php");
             <label for="inputClimat">Dans quel coin du globe</label>
             <select name="climat" id="inputClimat">
                 <option value="">Choix du climat</option>
-                <option value=1>Froid</option>
-                <option value=2>Chaud</option>
-                <option value=3>Tempéré</option>
-                <option value=4>Polaire</option>
-                <option value=5>Humide</option>
-                <option value=6>Aride</option>
+                <option value="Froid">Froid</option>
+                <option value="Chaud">Chaud</option>
+                <option value="Tempéré">Tempéré</option>
+                <option value="Polaire">Polaire</option>
+                <option value="Humide">Humide</option>
+                <option value="Aride">Aride</option>
             </select>
         </div>
         <div>
@@ -70,42 +70,40 @@ include("pagesComponents/destinations_data.php");
 ------------------>
 
     <!-- <?php
-    echo "<div class ='tripPage'>";
+            echo "<div class ='tripPage'>";
 
-    foreach ($destinations as $destination => $content) {
-        echo "<div class='picturesContainer'>
+            foreach ($destinations as $destination => $content) {
+                echo "<div class='picturesContainer'>
          <h2> $destination </h2> " .
-            "<div class='destinationImage'>" .
-            $content['image'] .
-            "</div>
+                    "<div class='destinationImage'>" .
+                    $content['image'] .
+                    "</div>
                 <div class='descriptionParagraph'>" .
-            $content['description'] .
-            "</div>                
+                    $content['description'] .
+                    "</div>                
         </div>";
-    }
+            }
 
-    echo "<?div>";
-    ?> -->
+            echo "<?div>";
+            ?> -->
 
     <?php
 
     echo "<div class='formResult'>";
 
-        foreach ($destinations as $destination => $content) 
-        {
-            if ($_POST['climat'] === $content['wheather'] && $_POST['depay'] === $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) 
-                {
-                    echo "<div class='cardResult'>" .
-                            "<h3>$destination</h3>" .
-                            $content['image'] .
-                            $content['description'] .                            
-                            "<p>Coût par jour par personne : {$content['costByDay']} € </br>
-                            Coût par jour pour le groupe : {$content['costByDay']} * {$_POST['person']} € </br>
+    foreach ($destinations as $destination => $content) {
+        if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
+            $calcul = ($content['costByDay'] * $_POST['person']);
+            echo "<div class='cardResult'>" .
+                "<h3>$destination</h3>" .
+                $content['image'] .
+                $content['description'] .
+                "<p>Coût par jour par personne : {$content['costByDay']} € </br>
+                            Coût par jour pour le groupe : {$calcul} € </br>
                             Climat : {$content['wheather']} | Dépaysement : {$content['changeOfScenery']}</p>" .
-                         "</div>";
-
-                }
+                "</div>";
         }
+    }
 
     echo "</div>";
     ?>
