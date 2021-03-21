@@ -20,14 +20,14 @@
         <label class="hamburger" for="nav-toggle"></label>
         <input id="nav-toggle" type="checkbox" class="hidden" />
         <nav>
-            <a href ="index.php" class="logo-button">
-            <img class ="nav-logo" src="images/55a4640511d949dcb8dfc257f0a01890.png"
-            </a>
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="formtrip.php">Votre Wild Trip !</a></li>
-                <li><a href="trip.php">Nos voyages</a></li>
-                <li><a href="about.php">Qui sommes-nous ?</a></li>
-            </ul>
+            <img src="images/55a4640511d949dcb8dfc257f0a01890.png">
+            <a href="index.php" class="logo-button">
+
+                <ul>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="formtrip.php">Votre Wild Trip !</a></li>
+                    <li><a href="trip.php">Nos voyages</a></li>
+                    <li><a href="about.php">Qui sommes-nous ?</a></li>
+                </ul>
         </nav>
     </header>
