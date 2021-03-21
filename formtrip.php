@@ -89,23 +89,23 @@ include("pagesComponents/destinations_data.php");
 
     <?php
 
-    echo "<div class='formResult'>";
+    echo "<div class='tripPage'>";
 
     foreach ($destinations as $destination => $content) {
         if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
             $calcul = ($content['costByDay'] * $_POST['person']);
-            echo "<div class='cardResult'>" .
+            $total = ($calcul * $_POST['person']);
+            echo "<div class='picturesContainer'>" .
                 "<h3>$destination</h3>" .
                 $content['image'] .
                 $content['description'] .
-                "<p>Coût par jour par personne : {$content['costByDay']} € </br>
-                            Coût par jour pour le groupe : {$calcul} € </br>
-                            Climat : {$content['wheather']} | Dépaysement : {$content['changeOfScenery']}</p>" .
+                "<p>Dépaysement: {$content['changeOfScenery']}</br>
+                            Climat: {$content['wheather']} </br>
+                            Par jour/pers: {$content['costByDay']} €</br>
+                            <b>Coût total: {$calcul} € </b></p>" .
                 "</div>";
         }
     }
-    echo "<h4>Désolé nous n'avons rien pour vous !</h4><br>";
-
     echo "</div>";
     ?>
 
