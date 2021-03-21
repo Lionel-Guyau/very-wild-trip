@@ -12,12 +12,9 @@ include('destinations_data.php');
             <label for="inputTrip">Votre budget</label>
             <select name="budget" id="selectBudget">
                 <option value="">En Euro jour/pers</option>
-                <option value="1">0€ - 500€</option>
-                <option value="2">500€ - 1000€</option>
-                <option value="3">1000€ - 1500€</option>
-                <option value="4">1500€ - 2000€</option>
-                <option value="5">2000€ - 2500€</option>
-                <option value="6">2500€ - ....€</option>
+                <option value="1">0€ - 150€</option>
+                <option value="2">150€ - 300€</option>
+                <option value="3">300€ - 1000€</option>
             </select>
 
 
