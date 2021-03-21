@@ -102,10 +102,13 @@ include("pagesComponents/destinations_data.php");
                             Coût par jour pour le groupe : {$calcul} € </br>
                             Climat : {$content['wheather']} | Dépaysement : {$content['changeOfScenery']}</p>" .
                 "</div>";
-        } else {
-            echo "<h4>Désolé nous n'avons rien pour vous !</h4><br>";
         }
     }
+    echo "<h4>Désolé nous n'avons rien pour vous !</h4><br>";
 
     echo "</div>";
+    ?>
+
+    <?php
+    include("footer.php");
     ?>
