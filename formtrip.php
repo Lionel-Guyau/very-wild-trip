@@ -1,9 +1,10 @@
 <?php
 include("header.php");
+include('destinations_data.php');
 ?>
 
 <!-----------------
--- Le formulaire --
+--    The Form   --
 ------------------>
 <div class="formtrip-body">
     <form>
@@ -68,9 +69,8 @@ include("header.php");
     </form>
 
 
-
-<!-----------------
---  Les cartes   --
+    <!----------------
+--   The cards   --
 ------------------>
 
 
