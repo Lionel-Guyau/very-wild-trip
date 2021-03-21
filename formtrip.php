@@ -89,12 +89,12 @@ include("pagesComponents/destinations_data.php");
 
     <?php
 
-    echo "<div class='formResult'>";
+    echo "<div class='tripPage'>";
 
     foreach ($destinations as $destination => $content) {
         if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
             $calcul = ($content['costByDay'] * $_POST['person']);
-            echo "<div class='cardResult'>" .
+            echo "<div class='picturesContainer'>" .
                 "<h3>$destination</h3>" .
                 $content['image'] .
                 $content['description'] .
