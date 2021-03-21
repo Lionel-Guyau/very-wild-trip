@@ -93,30 +93,69 @@ footer span {
 }
 
 
-/* Top 5 trips cards code */
+/* Top 5 trips cards */
 
 .content {
   width: 100%;
   /* height: 100%; */
-  background: var(--lightColor);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  
 }
 
 
 .toptrips {
   margin: 10px;
-  width: 30%;
-  height: 500px;
-  background: #333;
+  max-width: 28%;
+  height: 670px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
 
+
+.toptrips:hover {
+  width: 30%;
+  height: 700px;
+}
+
+
+.toptrips .city-picture img{
+  /* display: inline-block; */
+  margin: 22% 22%;
+  border-radius: 3px;
+  object-fit: contain;
+}
+
+.toptrips .city-picture{
+  width: 100%;
+  height: 60%;
+  background:var(--darkestColor);
+}
+
+.toptrips .city-name{
+  width: 100%;
+  height: 10%;
+  background: var(--lightColor);
+  color: var(--darkestColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.toptrips .city-description {
+  width: 100%;
+  height: 40%;
+  background: var(--darkColor);
+  color: var(--lightColor);
+  font-weight: bold;
 }
 
 /* Menu Burger Code (only for mobile mode) */
