@@ -3,7 +3,7 @@
 .card-list{
     padding: 0;
     margin: 0;
-    color:var(--darkestColor);
+    color:var(--lightColor);
     text-align: unset;
     display: flex;
     padding: 5rem;
@@ -12,6 +12,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.cardlist, p{
+    color:var(--darkestColor) ;
+}
+.profile-position{
+    font-size: 1.5rem;
+} 
 .card{
     display: flex;
     /* position: relative; */
@@ -25,8 +31,9 @@
     text-align: center;
     transition: .5s;
 }
-.profil-name{
+.profile-name{
     font-size: 1.5em;
+    font-family: 'Englebert', sans-serif;
 }
 img.profile-image{
     border-radius: 50%;
