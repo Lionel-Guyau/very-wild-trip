@@ -94,7 +94,7 @@ include("pagesComponents/destinations_data.php");
     foreach ($destinations as $destination => $content) {
         if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
             $calcul = ($content['costByDay'] * $_POST['person']);
-            $total = ($calcul * $_POST['person']);
+            $total = ($calcul * $_POST['duree']);
             echo "<div class='picturesContainer'>" .
                 "<h3>$destination</h3>" .
                 $content['image'] .
@@ -102,7 +102,7 @@ include("pagesComponents/destinations_data.php");
                 "<p>Dépaysement: {$content['changeOfScenery']}</br>
                             Climat: {$content['wheather']} </br>
                             Par jour/pers: {$content['costByDay']} €</br>
-                            <b>Coût total: {$calcul} € </b></p>" .
+                            <b>Coût total: {$total} € </b></p>" .
                 "</div>";
         }
     }
