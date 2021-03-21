@@ -165,6 +165,8 @@ header {
   width: 100%;
   display: inline-block;
   background-color: var(--darkColor);
+  font-family: 'Englebert', sans-serif;
+  font-size: 1.5rem;
   /* position: fixed; */
 }
 
@@ -178,14 +180,14 @@ header {
 .hamburger:before {
   content: "";
   display: block;
-  background-color: var(--darkColor);
+  background-color: var(--lightColor);
   width: 100%;
   height: 4px;
 }
 .hamburger:after {
   content: "";
   display: block;
-  background-color: var(--darkColor);
+  background-color: var(--lightColor);
   width: 100%;
   height: 4px;
   margin-top: 4px;
@@ -193,7 +195,7 @@ header {
 }
 
 nav {
-  background-color: #2b2b2b;
+  background-color: var(--mediumColor);
   margin: 0;
   max-height: 0;
   overflow: hidden;
@@ -204,9 +206,7 @@ nav {
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-  display: block;
-  float: right;
+  height: 100%;
 }
 nav li {
   display: block;
@@ -214,14 +214,14 @@ nav li {
   text-align: center;
 }
 nav a {
-  color: white;
+  color: var(--lightColor);
   display: block;
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 header input[type="checkbox"]:checked ~ nav {
   max-height: 150px;
-  border-bottom: #404040 5px solid;
+  /* border-bottom: var(--darkestColor) 5px solid; */
 }
 
 
@@ -236,23 +236,29 @@ header label:focus {
 
 /* Display of the burger set to None when not in mobile mode  */
 @media (min-width: 700px) {
+  header{
+    display: flex;
+    align-items: flex-start;
+  }
   .hamburger {
     display: none;
   }
   nav {
     background: transparent;
-    /* float: right; */
     border: 0 !important;
     max-height: none;
+    width: auto;
+   
+    
   }
   nav ul,
   nav li,
   nav li a {
     display: inline-block;
+    
   }
   nav a {
-    display: inline-block;
-    padding: 15px 1em;
+    padding: 15px .5em;
   }
 }
 
@@ -260,4 +266,8 @@ header label:focus {
   position: fixed;
   top: -100%;
   left: -100%;
+}
+.logo-button{
+  float: left;
+  width: auto;
 }
