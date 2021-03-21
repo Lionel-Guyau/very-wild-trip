@@ -69,7 +69,7 @@ include("pagesComponents/destinations_data.php");
 --   The cards   --
 ------------------>
 
-    <?php
+    <!-- <?php
     echo "<div class ='tripPage'>";
 
     foreach ($destinations as $destination => $content) {
@@ -85,13 +85,27 @@ include("pagesComponents/destinations_data.php");
     }
 
     echo "<?div>";
-    ?>
+    ?> -->
 
     <?php
 
-    foreach ($destinations as $destination => $content) {
+    echo "<div class='formResult'>";
 
-        if ($_POST['climat'] === $content['wheather'] && $_POST['depay'] === $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
+        foreach ($destinations as $destination => $content) 
+        {
+            if ($_POST['climat'] === $content['wheather'] && $_POST['depay'] === $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) 
+                {
+                    echo "<div class='cardResult'>" .
+                            "<h3>$destination</h3>" .
+                            $content['image'] .
+                            $content['description'] .                            
+                            "<p>Coût par jour par personne : {$content['costByDay']} € </br>
+                            Coût par jour pour le groupe : {$content['costByDay']} * {$_POST['person']} € </br>
+                            Climat : {$content['wheather']} | Dépaysement : {$content['changeOfScenery']}</p>" .
+                         "</div>";
+
+                }
         }
-    }
+
+    echo "</div>";
     ?>
