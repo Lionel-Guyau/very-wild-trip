@@ -171,11 +171,12 @@ header {
 }
 
 .hamburger {
-  height: 20px;
+  height: 21px;
   width: 20px;
   padding: 20px;
   float: right;
   cursor: pointer;
+
 }
 .hamburger:before {
   content: "";
@@ -201,17 +202,23 @@ nav {
   overflow: hidden;
   clear: both;
   transition: max-height 0.3s cubic-bezier(0.63, 0, 0.25, 1);
+  border-top-left-radius:40px ;
+  border-top-right-radius:40px ;
+  border-bottom-left-radius:40px ;
+  border-bottom-right-radius:40px ;
+  transition: 2s;
 }
 
 nav ul {
   margin: 0;
-  padding: 0;
-  height: 100%;
+  padding: 0.9;
+  height: 110%;
 }
 nav li {
   display: block;
   margin: 0;
-  text-align: center;
+  text-align: center;  
+  padding: 0.9;
 }
 nav a {
   color: var(--lightColor);
@@ -228,10 +235,15 @@ header input[type="checkbox"]:checked ~ nav {
 /* Change of color when hovering the nav elements */
 
 header a:hover,
-header a:focus,
-header label:hover,
-header label:focus {
+/* header a:focus, */
+header label:focus, 
+header label:hover{
   background-color: var(--mediumColor);
+  border-top-left-radius:40px ;
+  border-bottom-left-radius:40px ;
+  border-top-right-radius:40px ;
+  border-bottom-right-radius:40px ;
+  transition: 0.8s;
 }
 
 /* Display of the burger set to None when not in mobile mode  */
@@ -257,6 +269,9 @@ header label:focus {
   }
   nav a {
     padding: 15px .5em;
+  }
+  nav li{
+    padding: 0;
   }
 }
 
