@@ -205,13 +205,14 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
+
   height: 100%;
 }
 nav li {
   display: block;
   margin: 0;
-  text-align: center;
+  text-align: center;  
+  padding: 0.6rem;
 }
 nav a {
   color: var(--lightColor);
