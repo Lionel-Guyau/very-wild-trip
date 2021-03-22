@@ -63,8 +63,7 @@ include("pagesComponents/destinations_data.php");
         <input type="submit" id="submit" value="Mes choix" />
         
     </form>
-
-
+    <p class="form instruction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione molestiae, commodi veniam, dolores non hic deleniti blanditiis explicabo aut, voluptatibus labore vel atque reiciendis velit mollitia rerum maxime delectus.</p>
 
     <!----------------
 --   The cards   --
