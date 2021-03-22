@@ -11,7 +11,7 @@ include("header.php");
       <h3 class="profile-name" >Léa M</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-      Curieuse et baroudeuse dans l'âme, Léa vous déniche les meilleures spots pour vivre votre Trip dans les conditions les plus Wild...Elle se fera un plaisir de répondre à vos questions (elle adore ça !)
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
       </p>
     </div>
   </article>
@@ -24,7 +24,7 @@ include("header.php");
       <h3 class="profile-name" >Lionel G</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-      Lionel, le sage de notre team Very Wild Trip, ces plus longues destinations : la Thaïlande, l'île Maurice et la Côte d'Ivoire. Bienvenue à bord !
+        Je ne sais pas quoi mettre
       </p>
     </div>
   </article>
