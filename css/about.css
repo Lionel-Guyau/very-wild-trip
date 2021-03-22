@@ -22,7 +22,7 @@
     display: flex;
     /* position: relative; */
     flex-direction: column;
-    min-width: 200px;
+    min-width: 25%;
     padding: 1.5rem;
     border-radius: 16px;
     background: var(--mediumColor);
@@ -91,12 +91,14 @@ img.profile-image{
     }
     .card-list {
         display:list-item ;
-        padding-left: 0 ;
+        padding-left: 10% ;
         height: auto;
+        width: 80%;
+
 
     }
     .card:hover{
-        transform: translateX(7%);
+        transform: translateX(0%);
     }
     .card:hover~.card{
         transform: translateY(0px);

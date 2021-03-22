@@ -61,9 +61,9 @@ include("pagesComponents/destinations_data.php");
         </div>
 
         <input type="submit" id="submit" value="Mes choix" />
+        
     </form>
-
-
+    <p class="form instruction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione molestiae, commodi veniam, dolores non hic deleniti blanditiis explicabo aut, voluptatibus labore vel atque reiciendis velit mollitia rerum maxime delectus.</p>
 
     <!----------------
 --   The cards   --
@@ -89,7 +89,7 @@ include("pagesComponents/destinations_data.php");
 
     <?php
 
-    echo "<div class='tripPage'>";
+    echo "<div class='form-trip-page'>";
 
     foreach ($destinations as $destination => $content) {
         if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
