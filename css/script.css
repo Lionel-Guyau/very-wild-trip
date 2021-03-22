@@ -198,7 +198,7 @@ nav {
   background-color: var(--mediumColor);
   margin: 0;
   max-height: 0;
-  height: 61.2px;
+  /* height: 121.2px; */
   overflow: hidden;
   clear: both;
   transition: max-height 0.3s cubic-bezier(0.63, 0, 0.25, 1);
@@ -211,20 +211,21 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0.9;
-  height: 110%;
+  /* padding: 0.9; */
+  height: auto;
 }
 nav li {
   display: block;
   margin: 0;
   text-align: center;  
-  padding: 0.8;
-  height: 61.2px;
+  /* padding: 0.8; */
+  /* height: 61.2px; */
 }
 nav a {
   color: var(--lightColor);
   display: block;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header input[type="checkbox"]:checked ~ nav {
@@ -245,7 +246,7 @@ header label:hover{
   /* border-top-right-radius:40px ; */
   /* border-bottom-right-radius:40px ; */
   transition: 0.8s;
-  height: 61.2px;
+  /* height: 61.2px; */
 }
 
 /* Display of the burger set to None when not in mobile mode  */
