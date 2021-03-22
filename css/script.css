@@ -211,19 +211,21 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0.9;
-  height: 110%;
+  /* padding: 0.9; */
+  height: auto;
 }
 nav li {
   display: block;
   margin: 0;
   text-align: center;  
+
   padding: 0.9;
 }
 nav a {
   color: var(--lightColor);
   display: block;
-  padding: 0.1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header input[type="checkbox"]:checked ~ nav {
