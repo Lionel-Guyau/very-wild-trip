@@ -5,8 +5,12 @@
 form {
   display: flex;
   flex-flow: column wrap;
-  padding: 2rem 1rem;
-  max-width: 25%;
+  padding: 2rem 1rem ;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  margin: 1.9rem;
+  
+  /* max-width: 25%; */
 }
 
 .formtrip-body {
@@ -108,5 +112,11 @@ form #submit:hover {
 @media (max-width: 700px) {
   form {
     max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    padding: .8rem;
+    background-color: var(--lightColor);
+    border-radius: 20px;
+    /* margin: 1rem; */
   }
 }

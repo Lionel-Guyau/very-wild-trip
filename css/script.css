@@ -216,7 +216,7 @@ nav li {
 nav a {
   color: var(--lightColor);
   display: block;
-  padding: 0.2em;
+  padding: 0.1em;
 }
 
 header input[type="checkbox"]:checked ~ nav {
@@ -246,10 +246,8 @@ header label:focus {
   nav {
     background: transparent;
     border: 0 !important;
-    max-height: none;
+    max-height: 100%;
     width: auto;
-   
-    
   }
   nav ul,
   nav li,
@@ -270,4 +268,7 @@ header label:focus {
 .logo-button{
   float: left;
   width: auto;
+}
+.flex-grow{
+  flex-grow: 1;
 }

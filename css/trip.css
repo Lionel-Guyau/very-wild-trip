@@ -57,6 +57,7 @@
   .picturesContainer {
     margin: 15px 15px;
     width: 200px;
+    width: 80%;
   }
 
   .picturesContainer:active {
@@ -72,4 +73,10 @@
 }
 .picturesContainer:active {
   transform: scale(1.5);
+}
+.form-trip-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }

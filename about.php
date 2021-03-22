@@ -24,7 +24,7 @@ include("header.php");
       <h3 class="profile-name" >Lionel G</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+        Je ne sais pas quoi mettre
       </p>
     </div>
   </article>

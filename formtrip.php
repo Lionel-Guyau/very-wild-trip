@@ -61,6 +61,7 @@ include("pagesComponents/destinations_data.php");
         </div>
 
         <input type="submit" id="submit" value="Mes choix" />
+        
     </form>
 
 
@@ -89,7 +90,7 @@ include("pagesComponents/destinations_data.php");
 
     <?php
 
-    echo "<div class='tripPage'>";
+    echo "<div class='form-trip-page'>";
 
     foreach ($destinations as $destination => $content) {
         if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
