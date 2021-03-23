@@ -202,10 +202,10 @@ nav {
   overflow: hidden;
   clear: both;
   transition: max-height 0.3s cubic-bezier(0.63, 0, 0.25, 1);
-  border-top-left-radius:40px ;
+  /* border-top-left-radius:40px ;
   border-top-right-radius:40px ;
   border-bottom-left-radius:40px ;
-  border-bottom-right-radius:40px ;
+  border-bottom-right-radius:40px ; */
   transition: 2s;
 }
 
@@ -213,12 +213,12 @@ nav ul {
   margin: 0;
   /* padding: 0.9; */
   height: auto;
+  padding-left: 0;  
 }
 nav li {
   display: block;
   margin: 0;
-  text-align: center;  
-
+  text-align: center;
   padding: 0.9;
 }
 nav a {
@@ -241,10 +241,10 @@ header a:hover,
 header label:focus, 
 header label:hover{
   background-color: var(--mediumColor);
-  border-top-left-radius:40px ;
+  /* border-top-left-radius:40px ;
   border-bottom-left-radius:40px ;
   border-top-right-radius:40px ;
-  border-bottom-right-radius:40px ;
+  border-bottom-right-radius:40px ; */
   transition: 0.8s;
 }
 
