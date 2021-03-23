@@ -88,13 +88,20 @@ include("pagesComponents/destinations_data.php");
             ?> -->
 
     <?php
+     
+
+$budget=$_POST['budget'];
+$depay= $_POST['depay'];
+$wheather= $_POST['climat'];
+$person= $_POST['person'];
+$duree= $_POST['duree'];
 
     echo "<div class='form-trip-page'>";
 
     foreach ($destinations as $destination => $content) {
-        if ($_POST['climat'] == $content['wheather'] && $_POST['depay'] == $content['changeOfScenery'] && $_POST['budget'] >= $content['costByDay'] * $_POST['duree'] * $_POST['person']) {
-            $calcul = ($content['costByDay'] * $_POST['person']);
-            $total = ($calcul * $_POST['duree']);
+        if ($wheather == $content['wheather'] && $depay == $content['changeOfScenery'] && $budget >= $content['costByDay'] * $duree * $person) {
+
+            $total = ($content['costByDay'] * $person * $duree);
             echo "<div class='picturesContainer'>" .
                 "<h3>$destination</h3>" .
                 $content['image'] .
