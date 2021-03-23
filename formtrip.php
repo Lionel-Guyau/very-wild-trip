@@ -1,7 +1,7 @@
 <?php
 include("header.php");
 include("pagesComponents/destinations_data.php");
-var_dump($_POST['depay']);
+
 
 $budget = isset($_POST['budget']) ? $_POST['budget'] : '';
 $depay = isset($_POST['depay']) ? $_POST['depay'] : '';
