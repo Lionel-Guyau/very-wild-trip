@@ -37,6 +37,20 @@ body {
   min-height: 100vh;
 }
 
+.text {
+  display: inline-block;
+  text-align: center;
+  color: var(--lightColor);
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 670px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  animation: fadeInLeft;
+  animation-duration: 2s; 
+}
 
 .bg {
   width: 100%;
@@ -50,9 +64,11 @@ body {
   flex-grow: 1;
 }
 
-h1,
-p {
+h2, p{
+  display:flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -107,8 +123,8 @@ footer span {
 
 .toptrips {
   margin: 10px;
-  max-width: 28%;
-  height: 670px;
+  max-width: 27%;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +135,6 @@ footer span {
   transition: 0.2s ease;
 }
 
-
 .toptrips:hover {
   width: 30%;
   height: 700px;
@@ -127,10 +142,8 @@ footer span {
 
 
 .toptrips .city-picture img{
-  /* display: inline-block; */
   margin: 22% 22%;
   border-radius: 3px;
-  object-fit: contain;
 }
 
 .toptrips .city-picture{
@@ -148,7 +161,9 @@ footer span {
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  font-size: 1.7rem;
 }
+
 
 .toptrips .city-description {
   width: 100%;
@@ -156,7 +171,20 @@ footer span {
   background: var(--darkColor);
   color: var(--lightColor);
   font-weight: bold;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 
 /* Menu Burger Code (only for mobile mode) */
 
