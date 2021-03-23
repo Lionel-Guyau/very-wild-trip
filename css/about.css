@@ -32,18 +32,25 @@
     transition: .5s;
 }
 .profile-name{
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: 'Englebert', sans-serif;
 }
 img.profile-image{
     border-radius: 50%;
     opacity: 100%;
+    image-rendering: optimizeQuality;
 }
 .profil-body{
     max-height: 500px;
     max-width: 20%;   
 }
-
+.profile-main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.profile-position{
+    font-style: italic;
+}
 
 
 /* scrollbar options  */
@@ -88,7 +95,7 @@ img.profile-image{
         margin: 0;
         /* max-height: 350px; */
         transform: translateY(10px);
-        padding: 0;
+        padding: 0;        
     }
     .card-list {
         display:list-item ;

@@ -2,7 +2,9 @@
 include("header.php");
 ?>
 <section class="card-list">
-
+  <!-- <div class="introduce-cardlist">
+    Découvrez l'équipe qui vous fera voyager encore plus loin que vos rêves !!!
+  </div> -->
   <article class="card">
     <div class="profile-sidebar">
       <img class="profile-image" src="images/Léa.jpg" alt="">

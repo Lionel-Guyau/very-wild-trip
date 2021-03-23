@@ -120,7 +120,7 @@ $duree= $_POST['duree'];
     }
     echo "</div>";
     ?>
-
+</div>
     <?php
     include("footer.php");
     ?>
