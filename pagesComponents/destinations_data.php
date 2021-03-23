@@ -3,6 +3,7 @@
 adding a city:
     To adding a city, copy/paste ,the code bellow, following the end of $destinations array and replace values by your city information.
     And add your picture in the 'images/destinations_images/' directory, and named it like 'Your City.jpeg'.
+    
     [   'name'=> "<h2>your city</p>",
         'image' => "<img src='images/destinations_images/Yourcity.jpeg'/200/300'>",
         'costByDay' => xx,
