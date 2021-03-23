@@ -4,11 +4,13 @@ include("header.php");
 
 
 <section class="bg">
-<div class="text">
+  <div class="container-text">
+    <div class="text">
     Embarquez à bord d'un Wild Trip sur mesure pour une aventure hors du commun.<br>
     Quelque soit votre désir, nous dénichons les pépites qui feront de votre voyage une expérience inoubliable.<br>
     Découvrez notre top 3 des voyages les plus recherchés !
-</div>
+    </div>
+  </div>
   <div class="content">
     <div class="toptrips">
       <div class="city-picture">
