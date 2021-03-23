@@ -1,6 +1,13 @@
 <?php
 include("header.php");
 include("pagesComponents/destinations_data.php");
+var_dump($_POST['depay']);
+
+$budget = isset($_POST['budget']) ? $_POST['budget'] : '';
+$depay = isset($_POST['depay']) ? $_POST['depay'] : '';
+$climat = isset($_POST['climat']) ? $_POST['climat'] : '';
+$person = isset($_POST['person']) ? $_POST['person'] : '';
+$duree = isset($_POST['duree']) ? $_POST['duree'] : '';
 ?>
 
 
@@ -11,57 +18,47 @@ include("pagesComponents/destinations_data.php");
     <form action="formtrip.php" method="POST">
         <div>
             <label for="inputTrip">Votre budget</label>
-            <input type="number" name="budget" id="inputTrip" required value="<?php if (isset($_POST['budget'])) {
-                                                                                    echo $_POST['budget'];
-                                                                                } ?>" />
+            <input type="number" name="budget" id="inputTrip" required value="<?= $budget ?>" />
         </div>
         <div>
             <label for="inputDepaysement">Votre degré de dépaysement</label>
-            <select name="depay" id="inputDepaysement" required value="<?php if (isset($_POST['depay'])) {
-                                                                            echo $_POST['depay'];
-                                                                        } ?>" />
-            <option value="">Choix de 0 à 3</option>
-            <option value=1>1</option>
-            <option value=2>2</option>
-            <option value=3>3</option>
+            <select name="depay" id="inputDepaysement" required>
+                <option value="">Choix de 1 à 3</option>
+                <option value="1" <?= $depay == '1' ? 'selected' : '' ?>>1</option>
+                <option value="2" <?= $depay == '2' ? 'selected' : '' ?>>2</option>
+                <option value="3" <?= $depay == '3' ? 'selected' : '' ?>>3</option>
             </select>
         </div>
         <div>
             <label for="inputClimat">Dans quel coin du globe</label>
-            <select name="climat" id="inputClimat" required value="<?php if (isset($_POST['climat'])) {
-                                                                        echo $_POST['climat'];
-                                                                    } ?>" />
-            <option value="">Choix du climat</option>
-            <option value="Froid">Froid</option>
-            <option value="Chaud">Chaud</option>
-            <option value="Tempéré">Tempéré</option>
-            <option value="Polaire">Polaire</option>
-            <option value="Humide">Humide</option>
-            <option value="Aride">Aride</option>
+            <select name="climat" id="inputClimat" required>
+                <option value="">Choix du climat</option>
+                <option value="Froid" <?= $climat == 'Froid' ? 'selected' : '' ?>>Froid</option>
+                <option value="Chaud" <?= $climat == 'Chaud' ? 'selected' : '' ?>>Chaud</option>
+                <option value="Tempéré" <?= $climat == 'Tempéré' ? 'selected' : '' ?>>Tempéré</option>
+                <option value="Polaire" <?= $climat == 'Polaire' ? 'selected' : '' ?>>Polaire</option>
+                <option value="Humide" <?= $climat == 'Humide' ? 'selected' : '' ?>>Humide</option>
+                <option value="Aride" <?= $climat == 'Aride' ? 'selected' : '' ?>>Aride</option>
             </select>
         </div>
         <div>
             <label for="inputPerson">Nombre de personne</label>
-            <select name="person" id="inputPerson" required value="<?php if (isset($_POST['person'])) {
-                                                                        echo $_POST['person'];
-                                                                    } ?>" />
-            <option value="">De 1 à 4</option>
-            <option value=1>1</option>
-            <option value=2>2</option>
-            <option value=3>3</option>
-            <option value=4>4</option>
+            <select name="person" id="inputPerson" required>
+                <option value="">De 1 à 4</option>
+                <option value="1" <?= $person == '1' ? 'selected' : '' ?>>1</option>
+                <option value="2" <?= $person == '2' ? 'selected' : '' ?>>2</option>
+                <option value="3" <?= $person == '3' ? 'selected' : '' ?>>3</option>
+                <option value="4" <?= $person == '4' ? 'selected' : '' ?>>4</option>
             </select>
         </div>
         <div>
             <label for="inputDuree">Quelle durée</label>
-            <select name="duree" id="inputDuree" required value="<?php if (isset($_POST['duree'])) {
-                                                                        echo $_POST['duree'];
-                                                                    } ?>" />
-            <option value="">En nombre de jour</option>
-            <option value=2>Week-end (2 jours)</option>
-            <option value=7>Semaine (7 jours)</option>
-            <option value=14>Semaine (14 jours)</option>
-            <option value=30>Mois (30 jours)</option>
+            <select name="duree" id="inputDuree" required>
+                <option value="">En nombre de jour</option>
+                <option value="2" <?= $duree == '2' ? 'selected' : '' ?>>Week-end (2 jours)</option>
+                <option value="7" <?= $duree == '7' ? 'selected' : '' ?>>Semaine (7 jours)</option>
+                <option value="14" <?= $duree == '14' ? 'selected' : '' ?>>Semaine (14 jours)</option>
+                <option value="30" <?= $duree == '30' ? 'selected' : '' ?>>Mois (30 jours)</option>
             </select>
         </div>
 
@@ -93,13 +90,13 @@ include("pagesComponents/destinations_data.php");
             ?> -->
 
     <?php
-     
 
-$budget=$_POST['budget'];
-$depay= $_POST['depay'];
-$wheather= $_POST['climat'];
-$person= $_POST['person'];
-$duree= $_POST['duree'];
+
+    $budget = $_POST['budget'];
+    $depay = $_POST['depay'];
+    $wheather = $_POST['climat'];
+    $person = $_POST['person'];
+    $duree = $_POST['duree'];
 
     echo "<div class='form-trip-page'>";
 
