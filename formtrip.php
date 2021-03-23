@@ -96,24 +96,26 @@ $wheather= $_POST['climat'];
 $person= $_POST['person'];
 $duree= $_POST['duree'];
 
-    echo "<div class='form-trip-page'>";
+echo "<div class='form-trip-page'>";
 
     foreach ($destinations as $destination => $content) {
         if ($wheather == $content['wheather'] && $depay == $content['changeOfScenery'] && $budget >= $content['costByDay'] * $duree * $person) {
 
             $total = ($content['costByDay'] * $person * $duree);
             echo "<div class='picturesContainer'>" .
-                "<h3>$destination</h3>" .
-                $content['image'] .
-                $content['description'] .
-                "<p>Dépaysement: {$content['changeOfScenery']}</br>
+                    "<h3>$destination</h3>" .
+                    $content['image'] .                    
+                    $content['description'] .
+
+                        "<p>Dépaysement: {$content['changeOfScenery']}</br>
                             Climat: {$content['wheather']} </br>
                             Par jour/pers: {$content['costByDay']} €</br>
                             <b>Coût total: {$total} € </b></p>" .
                 "</div>";
         }
     }
-    echo "</div>";
+
+echo "</div>";
     ?>
 
     <?php
