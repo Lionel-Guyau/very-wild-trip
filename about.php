@@ -13,7 +13,7 @@ include("header.php");
       <h3 class="profile-name" >Léa M</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-      Curieuse et baroudeuse dans l'âme, Léa vous déniche les meilleures spots pour vivre votre Trip dans les conditions les plus Wild... Elle se fera un plaisir de répondre à vos questions (elle adore ça !)
+      Curieuse et baroudeuse dans l'âme, Léa vous déniche les meilleures spots pour vivre votre Trip dans les conditions les plus Wild...<br><br> Elle se fera un plaisir de répondre à vos questions (elle adore ça !)
       </p>
     </div>
   </article>
@@ -26,7 +26,7 @@ include("header.php");
       <h3 class="profile-name" >Lionel G</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-      Lionel, le sage de notre team Very Wild Trip, ces plus longues destinations : la Thaïlande, l'île Maurice et la Côte d'Ivoire. Bienvenue à bord !
+      Lionel, le sage de notre team Very Wild Trip. Ses plus longues destinations : la Thaïlande, l'île Maurice et la Côte d'Ivoire.<br><br> Bienvenue à bord !
       </p>
     </div>
   </article>
@@ -39,7 +39,7 @@ include("header.php");
       <h3 class="profile-name" >Emmanuel R</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+        S'il ne contribue pas au remplissage de ce champs, Manu aura une carte bien triste !!!!!!!!!!!!!
       </p>
     </div>
   </article>
@@ -52,7 +52,7 @@ include("header.php");
       <h3 class="profile-name" >Quentin B</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam vel delectus repudiandae, numquam veniam non accusantium corrupti est cumque ea provident reprehenderit nulla, aspernatur tempora soluta corporis excepturi laudantium.
+        Quand il ne joue pas le rôle de "Papa poule", Quentin voge à travers les lignes de code. La musique agit telle la feuille de route de son périple. La patience, la créativité et l'humour en sont le carburant !! 
       </p>
     </div>
   </article>
