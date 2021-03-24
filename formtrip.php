@@ -36,7 +36,7 @@ $formduree = isset($_POST['duree']) ? $_POST['duree'] : '';
             </select>
         </div>
         <div>
-            <label for="inputClimat">Dans quel coin du globe</label>
+            <label for="inputClimat">Chois du climat</label>
             <select name="climat" id="inputClimat" required>
                 <option value="">Choix du climat</option>
                 <option value="Froid" <?= $formclimat == 'Froid' ? 'selected' : '' ?>>Froid</option>
@@ -71,7 +71,8 @@ $formduree = isset($_POST['duree']) ? $_POST['duree'] : '';
         <input type="submit" id="submit" value="Mes choix" />
 
     </form>
-    <p class="form-instruction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione molestiae, commodi veniam, dolores non hic deleniti blanditiis explicabo aut, voluptatibus labore vel atque reiciendis velit mollitia rerum maxime delectus.</p>
+    <p class="formtrip-textright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione molestiae, commodi veniam,
+        dolores non hic deleniti blanditiis explicabo aut, voluptatibus labore vel atque reiciendis velit mollitia rerum maxime delectus.</p>
 
 
     <!----------------
@@ -104,6 +105,6 @@ echo "<div class='form-trip-page'>";
 echo "</div>";
     ?>
 </div>
-    <?php
-    include("footer.php");
-    ?>
+<?php
+include("footer.php");
+?>
