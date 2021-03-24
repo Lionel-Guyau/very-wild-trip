@@ -3,7 +3,7 @@
 include('destinations_data.php');
 
 shuffle($destinations);
-$destinations = array_slice($destinations, 0, 10);
+$destinations = array_slice($destinations, 0, 9);
 echo "<div class ='tripPage'>";
 echo "<p class='tripPageDescription'>Vous trouverez ici un échantillon de nos déstinations proposées par nos partenaires à travers le mondes. </br> Rendez-vous sur notre page \"Votre Wild Trip\" afin de trouver la déstinations de vos rèves !!!</p>";
 
