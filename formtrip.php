@@ -3,11 +3,11 @@ include("header.php");
 include("pagesComponents/destinations_data.php");
 
 //   The vars    //
-$budget = $_POST['budget'];
-$depay = $_POST['depay'];
-$wheather = $_POST['climat'];
-$person = $_POST['person'];
-$duree = $_POST['duree'];
+$budget = $_POST['budget'] ?? "";
+$depay = $_POST['depay'] ?? "";
+$wheather = $_POST['climat'] ?? "";
+$person = $_POST['person'] ?? "";
+$duree = $_POST['duree'] ?? "";
 
 $formbudget = isset($_POST['budget']) ? $_POST['budget'] : '';
 $formdepay = isset($_POST['depay']) ? $_POST['depay'] : '';
@@ -81,7 +81,7 @@ $formduree = isset($_POST['duree']) ? $_POST['duree'] : '';
 
     <?php
 
-echo "<div class='form-trip-page'>";
+    echo "<div class='form-trip-page'>";
 
     $x = 0;
     foreach ($destinations as $destination => $content) {
@@ -89,20 +89,20 @@ echo "<div class='form-trip-page'>";
 
             $total = ($content['costByDay'] * $person * $duree);
             echo "<div class='picturesContainer'>" .
-                    $content['name'] .
-                    $content['image'] .                    
-                    $content['description'] .
+                $content['name'] .
+                $content['image'] .
+                $content['description'] .
 
-                        "<p>Dépaysement: {$content['changeOfScenery']}</br>
+                "<p>Dépaysement: {$content['changeOfScenery']}</br>
                             Climat: {$content['wheather']} </br>
                             Par jour/pers: {$content['costByDay']} €</br>
                             <b>Coût total: {$total} € </b></p>" .
                 "</div>";
-                $x ++;
+            $x++;
         }
     }
 
-echo "</div>";
+    echo "</div>";
     ?>
 </div>
 <?php
