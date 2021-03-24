@@ -20,7 +20,6 @@
 } 
 .card{
     display: flex;
-    /* position: relative; */
     flex-direction: column;
     min-width: 25%;
     padding: 1.5rem;
@@ -53,47 +52,29 @@ img.profile-image{
 }
 
 
-/* scrollbar options  */
-
-/* .card-list::-webkit-scrollbar{
-    width: 10px;
-    height: 10px;
-}
-.card-list::-webkit-scrollbar-thumb{
-    background: #a4334b;
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 2px gray;
-}
-.card-list::-webkit-scrollbar-track{
-    background: linear-gradient(90deg, rgba(164,51,75,1) 0%, rgba(195,102,120,1) 35%, rgba(223,165,176,1) 100%);
-} */
-
-
 /* card reactions */
 
 .card:hover{
     transform: translateY(-2rem);
     transform: scale(1.1);
     opacity: 100%;
-    
 }
 .card:hover~.card{
-    transform: translateX(55px);
-    
+    transform: translateX(55px);   
 }
-
 .card:not(:first-child){
     margin-left: -70px;
 }  
 .card:active{
     transform: scale(1.2);
 }
+
+
 /* Media responsive powa */
 
 @media (max-width:880px){
     .card {
         margin: 0;
-        /* max-height: 350px; */
         transform: translateY(10px);
         padding: 0;        
     }
@@ -102,8 +83,6 @@ img.profile-image{
         padding: 10%;
         height: auto;
         width: auto;
-
-
     }
     .card:hover{
         transform: translateX(0%);
@@ -119,7 +98,6 @@ img.profile-image{
      {
         text-align: center;
         margin-left: 15px;
-        /* font-size: .8em; */
 
     }
     
@@ -137,7 +115,7 @@ img.profile-image{
     
 }
 
-
+/* Usefull comment area */
 
 /* var(--darkColor): #a4334b;
 var(--mediumColor): #c36678;
