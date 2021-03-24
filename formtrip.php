@@ -3,15 +3,9 @@ include("header.php");
 include("pagesComponents/destinations_data.php");
 
 //   The vars    //
-$budget = $_POST['budget'] ?? "";
-$depay = $_POST['depay'] ?? "";
-$wheather = $_POST['climat'] ?? "";
-$person = $_POST['person'] ?? "";
-$duree = $_POST['duree'] ?? "";
-
 $budget = isset($_POST['budget']) ? $_POST['budget'] : '';
 $depay = isset($_POST['depay']) ? $_POST['depay'] : '';
-$climat = isset($_POST['climat']) ? $_POST['climat'] : '';
+$wheather = isset($_POST['climat']) ? $_POST['climat'] : '';
 $person = isset($_POST['person']) ? $_POST['person'] : '';
 $duree = isset($_POST['duree']) ? $_POST['duree'] : '';
 ?>
@@ -39,12 +33,12 @@ $duree = isset($_POST['duree']) ? $_POST['duree'] : '';
             <label for="inputClimat">Chois du climat</label>
             <select name="climat" id="inputClimat" required>
                 <option value="">Choix du climat</option>
-                <option value="Froid" <?= $climat == 'Froid' ? 'selected' : '' ?>>Froid</option>
-                <option value="Chaud" <?= $climat == 'Chaud' ? 'selected' : '' ?>>Chaud</option>
-                <option value="Tempéré" <?= $climat == 'Tempéré' ? 'selected' : '' ?>>Tempéré</option>
-                <option value="Polaire" <?= $climat == 'Polaire' ? 'selected' : '' ?>>Polaire</option>
-                <option value="Humide" <?= $climat == 'Humide' ? 'selected' : '' ?>>Humide</option>
-                <option value="Aride" <?= $climat == 'Aride' ? 'selected' : '' ?>>Aride</option>
+                <option value="Froid" <?= $wheather == 'Froid' ? 'selected' : '' ?>>Froid</option>
+                <option value="Chaud" <?= $wheather == 'Chaud' ? 'selected' : '' ?>>Chaud</option>
+                <option value="Tempéré" <?= $wheather == 'Tempéré' ? 'selected' : '' ?>>Tempéré</option>
+                <option value="Polaire" <?= $wheather == 'Polaire' ? 'selected' : '' ?>>Polaire</option>
+                <option value="Humide" <?= $wheather == 'Humide' ? 'selected' : '' ?>>Humide</option>
+                <option value="Aride" <?= $wheather == 'Aride' ? 'selected' : '' ?>>Aride</option>
             </select>
         </div>
         <div>
