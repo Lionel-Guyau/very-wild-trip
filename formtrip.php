@@ -69,7 +69,7 @@ foreach ($destinations as $destination => $content) {
         </div>
         <div>
             <label for="inputPerson">Nombre de personne</label>
-            <select name="person" id="inputPerson">
+            <select name="person" id="inputPerson" required>
                 <option value="">De 1 à 4</option>
                 <option value="1" <?= $person == '1' ? 'selected' : '' ?>>1</option>
                 <option value="2" <?= $person == '2' ? 'selected' : '' ?>>2</option>
@@ -79,7 +79,7 @@ foreach ($destinations as $destination => $content) {
         </div>
         <div>
             <label for="inputDuree">Quelle durée</label>
-            <select name="duree" id="inputDuree">
+            <select name="duree" id="inputDuree" required>
                 <option value="">En nombre de jour</option>
                 <option value="2" <?= $duree == '2' ? 'selected' : '' ?>>Week-end (2 jours)</option>
                 <option value="7" <?= $duree == '7' ? 'selected' : '' ?>>Semaine (7 jours)</option>
@@ -92,9 +92,9 @@ foreach ($destinations as $destination => $content) {
 
     </form>
 
-    <!-- <p class="formtrip-textright">
+    <p class="formtrip-textright">
         Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
-    </p> -->
+    </p>
 
     <h2>
         <?php if (!empty($filteredDestinations)) { ?>
