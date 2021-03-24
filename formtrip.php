@@ -13,26 +13,25 @@ $filteredDestinations = [];
 
 // Application des critères sur la liste de voyage
 foreach ($destinations as $destination => $content) {
-    if (!empty($budget) && !empty($person) && !empty($duree) && $budget < $content['costByDay'] * $duree * $person) {
-        continue;
-    }
+    if (!empty($_POST)) {
+        if (!empty($budget) && !empty($person) && !empty($duree) && $budget < $content['costByDay'] * $duree * $person) {
+            continue;
+        }
 
-    if (!empty($wheather) && $wheather !== $content['wheather']) {
-        continue;
-    }
+        if (!empty($wheather) && $wheather !== $content['wheather']) {
+            continue;
+        }
 
-    if (!empty($depay) && $depay != $content['changeOfScenery']) {
-        continue;
-    }
+        if (!empty($depay) && $depay != $content['changeOfScenery']) {
+            continue;
+        }
 
-    $content['total'] = $content['costByDay'] * $person * $duree;
-    $filteredDestinations[$destination] = $content;
+        $content['total'] = $content['costByDay'] * $person * $duree;
+        $filteredDestinations[$destination] = $content;
+    } else {
+    }
 }
 
-// Si aucun critère n'a été renseigné, on affiche tous les voyages
-if (empty($_POST)) {
-    $filteredDestinations = $destinations;
-}
 ?>
 
 

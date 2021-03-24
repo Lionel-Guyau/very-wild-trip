@@ -29,6 +29,7 @@
     box-shadow: -2rem 0 7rem var(--darkColor);
     text-align: center;
     transition: .5s;
+    
 }
 .profile-name{
     font-size: 1.8em;
