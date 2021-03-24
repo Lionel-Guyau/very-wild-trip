@@ -39,7 +39,9 @@ include("header.php");
       <h3 class="profile-name" >Emmanuel R</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-        S'il ne contribue pas au remplissage de ce champs, Manu aura une carte bien triste !!!!!!!!!!!!!
+      "Gamer" invétéré depuis sa tendre enfance.
+      "Manu" comme préfère le nommer l'équipe, aime passer son temps (quand il n'est pas en train de jouer...) à écrires des lignes de codes ou faire des blagues à ses collègues de travail.<br>
+      Bon vivant et déconneur il n'hésitera pas à vous aider si vous le contacter.
       </p>
     </div>
   </article>
@@ -52,7 +54,7 @@ include("header.php");
       <h3 class="profile-name" >Quentin B</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-        Quand il ne joue pas le rôle de "Papa poule", Quentin voge à travers les lignes de code. La musique agit telle la feuille de route de son périple. La patience, la créativité et l'humour en sont le carburant !! 
+        Quand il ne joue pas le rôle de "Papa poule", Quentin voge à travers les lignes de code. La musique agit telle la feuille de route de son périple, tandis que la patience, la créativité et l'humour en sont le carburant !! 
       </p>
     </div>
   </article>
