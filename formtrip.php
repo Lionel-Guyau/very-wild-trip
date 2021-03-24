@@ -82,8 +82,9 @@ $formduree = isset($_POST['duree']) ? $_POST['duree'] : '';
 
 echo "<div class='form-trip-page'>";
 
+    $x = 0;
     foreach ($destinations as $destination => $content) {
-        if ($wheather == $content['wheather'] && $depay == $content['changeOfScenery'] && $budget >= $content['costByDay'] * $duree * $person) {
+        if ($wheather == $content['wheather'] && $depay == $content['changeOfScenery'] && $budget >= $content['costByDay'] * $duree * $person && $x < 5) {
 
             $total = ($content['costByDay'] * $person * $duree);
             echo "<div class='picturesContainer'>" .
@@ -96,6 +97,7 @@ echo "<div class='form-trip-page'>";
                             Par jour/pers: {$content['costByDay']} €</br>
                             <b>Coût total: {$total} € </b></p>" .
                 "</div>";
+                $x ++;
         }
     }
 
