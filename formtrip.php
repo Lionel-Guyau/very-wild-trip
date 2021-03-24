@@ -87,7 +87,7 @@ echo "<div class='form-trip-page'>";
 
             $total = ($content['costByDay'] * $person * $duree);
             echo "<div class='picturesContainer'>" .
-                    "<h3>$destination</h3>" .
+                    $content['name'] .
                     $content['image'] .                    
                     $content['description'] .
 
