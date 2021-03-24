@@ -98,8 +98,6 @@
   animation-duration: 2s;
 }
 
-.refreshButton {
-  width: 200px;
-  height: 50px;
-  border-style: solid;
+.tripPageDescription a {
+  display: contents;
 }
