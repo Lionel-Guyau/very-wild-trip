@@ -10,10 +10,10 @@ include("header.php");
       <img class="profile-image" src="images/Léa.jpg" alt="">
     </div>
     <div class="profile-main">
-      <h3 class="profile-name" >Léa M</h3>
+      <h3 class="profile-name">Léa M</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-      Curieuse et baroudeuse dans l'âme, Léa vous déniche les meilleures spots pour vivre votre Trip dans les conditions les plus Wild...<br><br> Elle se fera un plaisir de répondre à vos questions (elle adore ça !)
+        Curieuse et baroudeuse dans l'âme, Léa vous déniche les meilleures spots pour vivre votre Trip dans les conditions les plus Wild...<br><br> Elle se fera un plaisir de répondre à vos questions (elle adore ça !)
       </p>
     </div>
   </article>
@@ -23,20 +23,20 @@ include("header.php");
       <img class="profile-image" src="images/lionel.jpg" alt="">
     </div>
     <div class="profile-main">
-      <h3 class="profile-name" >Lionel G</h3>
+      <h3 class="profile-name">Lionel G</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-      Lionel, le sage de notre team Very Wild Trip. Ses plus longues destinations : la Thaïlande, l'île Maurice et la Côte d'Ivoire.<br><br> Bienvenue à bord !
+        Lionel, le sage de notre team Very Wild Trip. Ses plus longues destinations : la Thaïlande, l'île Maurice et la Côte d'Ivoire.<br><br> Bienvenue à bord !
       </p>
     </div>
   </article>
-  
+
   <article class="card">
     <div class="profile-sidebar">
       <img class="profile-image" src="images/Manu.jpg" alt="">
     </div>
     <div class="profile-main">
-      <h3 class="profile-name" >Emmanuel R</h3>
+      <h3 class="profile-name">Emmanuel R</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
       "Gamer" invétéré depuis sa tendre enfance.
@@ -51,10 +51,10 @@ include("header.php");
       <img class="profile-image" src="images/Quentin.jpg" alt="">
     </div>
     <div class="profile-main">
-      <h3 class="profile-name" >Quentin B</h3>
+      <h3 class="profile-name">Quentin B</h3>
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
-        Quand il ne joue pas le rôle de "Papa poule", Quentin voge à travers les lignes de code. La musique agit telle la feuille de route de son périple, tandis que la patience, la créativité et l'humour en sont le carburant !! 
+        Quand il ne joue pas le rôle de "Papa poule", Quentin voge à travers les lignes de code. La musique agit telle la feuille de route de son périple, tandis que la patience, la créativité et l'humour en sont le carburant !!
       </p>
     </div>
   </article>
