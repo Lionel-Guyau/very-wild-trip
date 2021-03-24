@@ -4,7 +4,7 @@ include("header.php");
 
 
 <section class="bg">
-<div class="text">
+  <div class="text">
     Embarquez à bord d'un Wild Trip sur mesure pour une aventure hors du commun.<br>
     Quelque soit votre désir, nous dénichons les pépites qui feront de votre voyage une expérience inoubliable.<br>
     Découvrez notre top 3 des voyages les plus recherchés !
@@ -15,15 +15,10 @@ include("header.php");
         <img src="images/destinations_images/Toulouse.jpeg" alt="">
         </div>
       <div class="city-name">
-      <h1>TOULOUSE</h1>
+      <h2>TOP 1</h2>
       </div>
       <div class="city-description">
-      <p>Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Aut, commodi quae.
-        Deserunt eveniet in esse? Harum natus
-        accusantium cum eos alias, molestiae
-        itaque dignissimos, ipsa amet voluptate
-        vero quod dolor!</p>
+      <p><strong>TOULOUSE, LA BELLE VILLE ROSE</strong></p>
       </div>
     </div>
     <div class="toptrips">
@@ -31,15 +26,10 @@ include("header.php");
         <img src="images/destinations_images/Paris.jpeg" alt="">
       </div>
       <div class="city-name">
-      <h1>PARIS</h1>
+      <h2>TOP 2 </h2>
       </div>
       <div class="city-description">
-        <p>Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Aut, commodi quae.
-        Deserunt eveniet in esse? Harum natus
-        accusantium cum eos alias, molestiae
-        itaque dignissimos, ipsa amet voluptate
-        vero quod dolor!</p>
+      <p><strong>PARIS, LA VILLE LUMIERE  </strong></p>
       </div>
     </div>
     <div class="toptrips">
@@ -47,15 +37,10 @@ include("header.php");
         <img src="images/destinations_images/Pyongyang.jpeg" alt="">
       </div>
       <div class="city-name">
-      <h1>PYONGYANG</h1>
+      <h2>TOP 3 </h2>
       </div>
       <div class="city-description">
-      <p>Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Aut, commodi quae.
-        Deserunt eveniet in esse? Harum natus
-        accusantium cum eos alias, molestiae
-        itaque dignissimos, ipsa amet voluptate
-        vero quod dolor!</p>
+      <p><strong>PYONGYANG, L'ETOILE DU NORD</strong></p>
       </div>
     </div>
   </div>
