@@ -12,8 +12,9 @@ $duree = isset($_POST['duree']) ? $_POST['duree'] : '';
 $filteredDestinations = [];
 
 // Application des critères sur la liste de voyage
-foreach ($destinations as $destination => $content) {
-    if (!empty($_POST)) {
+if (!empty($_POST)) {
+    foreach ($destinations as $destination => $content) {
+
         if (!empty($budget) && !empty($person) && !empty($duree) && $budget < $content['costByDay'] * $duree * $person) {
             continue;
         }
@@ -30,7 +31,6 @@ foreach ($destinations as $destination => $content) {
         }
 
         $filteredDestinations[$destination] = $content;
-    } else {
     }
 }
 
@@ -56,7 +56,7 @@ foreach ($destinations as $destination => $content) {
             </select>
         </div>
         <div>
-            <label for="inputClimat">Chois du climat</label>
+            <label for="inputClimat">Choix du climat</label>
             <select name="climat" id="inputClimat">
                 <option value="">Choix du climat</option>
                 <option value="Froid" <?= $wheather == 'Froid' ? 'selected' : '' ?>>Froid</option>
