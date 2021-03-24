@@ -140,13 +140,13 @@ footer span {
   align-items: center;
   overflow: hidden;
   opacity: 0.8;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
 }
 
 
 
 .toptrips:hover {
-  width: 30%;
+  width: 60%;
   height: 520px;
 }
 

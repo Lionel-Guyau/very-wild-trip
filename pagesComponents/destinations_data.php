@@ -4,17 +4,17 @@ adding a city:
     To adding a city, copy/paste ,the code bellow, following the end of $destinations array and replace values by your city information.
     And add your picture in the 'images/destinations_images/' directory, and named it like 'Your City.jpeg'.
     
-    [   'name'=> "<h2>your city</p>",
-        'image' => "<img src='images/destinations_images/Yourcity.jpeg'/200/300'>",
+    [   'name'=> "<h2>your city</h2>",
+        'image' => "<img src='images/destinations_images/Yourcity.jpeg/200/300'>",
         'costByDay' => xx,
-        'changeOfScenery => 1,2 or 3,
+        'changeOfScenery' => 1,2 or 3,
         'wheather' => 'Chaud','Tempéré','Froid','Humide','Aride' or 'Polaire',
         'description' => "<p> little description of your destination </p>",
     ],
 
     existing : london , berlin , barcelone , lisboa , paris , Toulouse , dublin , tokyo , pekin , Sydney , moscov , tarkov , rio , los angeles , cuba ,
     roma , bruxelle , rabat , johannesbourg , le caire , ouagadougou , bangkok , pyongyang , seoul , new york , Anse Boileau Mahe , venise , quebec ,
-    tasilac , chinguetti , ghardaïa , huacachina , montauban , helsinki , tudela ,
+    tasilac , chinguetti , ghardaïa , huacachina , montauban , helsinki , tudela , glasgow , manchester , montevideo , oulan bator , petrolina ,stockhoilm
 */
 $destinations = [
     [   'name' => "<h2>London</h2>",
@@ -296,4 +296,52 @@ $destinations = [
         'description' => "<p>Le parc naturel des Bardenas Reales, également appelé désert des Bardenas, se situe dans la province de Navarre en Espagne, à la limite de la province d’Aragon. Ces paysages du nord de l’Espagne sont surprenants pour l’Europe. A mi-chemin entre les paysages du Nevada ou de l’Arizona, les Bardenas ne pourront que vous plaire si vous êtes amateur de nature, de paysages et de grands espaces. Étendu sur plus de 40 000 hectares.</p>",
     ],
 
+    [   'name'=> "<h2>Glasgow</h2>",
+        'image' => "<img src='images/destinations_images/Glasgow.jpeg/200/300'>",
+        'costByDay' => 90,
+        'changeOfScenery' => 1,
+        'wheather' => "Froid",
+        'description' => "<p>Plus grande ville d'Écosse, Glasgow est connue pour sa culture, son shopping et ses habitants. Passez la journée à explorer les fascinants musées et galeries dont l'entrée est gratuite, les meilleures boutiques en dehors de Londres et profitez des conseils des habitants pour découvrir des trésors cachés de la ville.</p>",
+    ],
+
+    [   'name'=> "<h2>Manchester</h2>",
+        'image' => "<img src='images/destinations_images/Manchester.jpeg/200/300'>",
+        'costByDay' => 80,
+        'changeOfScenery' => 1,
+        'wheather' => "Humide",
+        'description' => "<p>Bienvenue dans la ville de Norman Foster: Manchester. Nous ne le disons pas parce que c’est là que plusieurs bâtiments ont été conçu par cet architecte de renommée mondiale, mais parce que c’est sa ville natale. La même chose peut être dite du groupe Oasis: les frères Gallagher ont vu la lumière ici pour la première fois.</p>",
+    ],
+
+    [   'name'=> "<h2>Oulan-Bator</h2>",
+        'image' => "<img src='images/destinations_images/Oulan-Bator.jpeg/200/300'>",
+        'costByDay' => 30,
+        'changeOfScenery' => 3,
+        'wheather' => "Humide",
+        'description' => "<p>Oulan Bator (Ulaanbaatar) n’a pas toujours bonne presse aux yeux des voyageurs étrangers qui préfèrent, et on le comprend bien, s’attarder sur les merveilles naturelles que compte la steppe. Pourtant, le voyageur patient et disposant d’un peu de temps devant lui découvrira dans la capitale mongole de très beaux sites où il est agréable de flâner.</p>",
+    ],
+
+    [   'name'=> "<h2>Montevideo</h2>",
+        'image' => "<img src='images/destinations_images/Montevideo.jpeg/200/300'>",
+        'costByDay' => 50,
+        'changeOfScenery' => 2,
+        'wheather' => "Chaud",
+        'description' => "<p>Montevideo est la capitale du petit pays qu'est l'Uruguay. La ville se trouve à l'embouchure du fleuve Rio de la Plata et juste en face de Buenos Aires. Montevideo est une destination immanquable lors de votre voyage en Uruguay. En effet, la ville est un mélange d'architecture coloniale et nouvelle et ses nombreux quartiers offrent chacun une ambiance différente. Il est très agréable de se balader dans la rue car contrairement aux autres capitales d'Amérique du Sud, la circulation et la pollution n'est pas aussi présente.</p>",
+    ],
+
+    [   'name'=> "<h2>Petrolina</h2>",
+        'image' => "<img src='images/destinations_images/Petrolina.jpeg/200/300'>",
+        'costByDay' => 70,
+        'changeOfScenery' => 2,
+        'wheather' => "Chaud",
+        'description' => "<p>Petrolina est localisée dans l'État du Pernambouc, au nord-est du Brésil.
+        Ce sont les activités agricoles qui ont contribué à la notoriété de la ville : on y produit parmi les meilleurs vins et fruits tropicaux du pays, malgré un climat aride. Petrolina est d'ailleurs communément surnommée la « Californie brésilienne » ou la « terre des impossibles ».</p>",
+    ],
+    
+    [   'name'=> "<h2>Stockholm</h2>",
+        'image' => "<img src='images/destinations_images/Stockholm.jpeg/200/300'>",
+        'costByDay' => 100,
+        'changeOfScenery' => 1,
+        'wheather' => "Polaire",
+        'description' => "<p>Stockholm est la capitale de la Suède, une grande dame nordique surplombant le continent européen. Cette métropole sublime comptant près d'un million d'habitants se distingue par sa position géographique originale. En effet, elle est située sur un vaste archipel baignant dans la mer Baltique et comptant une quinzaine d'îles principales. Ses quartiers sont reliés les uns aux autres par une cinquantaine de ponts différents ! On peut les découvrir par voie terrestre, en tirant parti du vélo, véritable star de cette agglomération propre et éco-responsable. Mais il est aussi possible d'utiliser les lignes de bateaux remplaçant avantageusement les transports en commun terrestres !</p>",
+    ],
 ];
