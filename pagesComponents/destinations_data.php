@@ -13,7 +13,8 @@ adding a city:
     ],
 
     existing : london , berlin , barcelone , lisboa , paris , Toulouse , dublin , tokyo , pekin , Sydney , moscov , tarkov , rio , los angeles , cuba ,
-    roma , bruxelle , rabat , johannesbourg , le caire , ouagadougou , bangkok , pyongyang , seoul ,
+    roma , bruxelle , rabat , johannesbourg , le caire , ouagadougou , bangkok , pyongyang , seoul , new york , Anse Boileau Mahe , venise , quebec ,
+    tasilac , chinguetti , ghardaïa , huacachina , montauban , helsinki , tudela ,
 */
 $destinations = [
     [   'name' => "<h2>London</h2>",
@@ -207,7 +208,7 @@ $destinations = [
         'description' => "<p>Comme toutes les villes d'Asie, Séoul cultive un équilibre particulier entre passé et modernité. Si la capitale de la Corée du Sud et ses immenses buildings témoignent du formidable dynamisme économique du pays depuis trente ans, elle a gardé l'empreinte de son histoire et possède une culture très riche qui sait séduire quand on prend le temps de la découvrir.</p>",
     ],
 
-    'New-York' => [
+    [   'name' => "<p>New-York</p>",
         'image' => "<img src='../images/destinations_images/NewYork.jpeg/200/300'>",
         'costByDay' => 150,
         'changeOfScenery' => 2,
@@ -215,7 +216,7 @@ $destinations = [
         'description' => "<p>New York est une ville composée de 5 arrondissements à l'embouchure du fleuve Hudson et de l'océan Atlantique. En son centre se trouve Manhattan, un arrondissement densément peuplé faisant partie des principaux centres commerciaux, financiers et culturels du monde. Ses sites incontournables comprennent des gratte-ciel comme l'Empire State Building et l'immense Central Park.</p>",
     ],
 
-    'Anse Boileau Mahe' => [
+    [   'name' => "<p>Anse Boileau Mahe</p>",
         'image' => "<img src='../images/destinations_images/AnseBoileauMahe.jpeg/200/300'>",
         'costByDay' => 200,
         'changeOfScenery' => 3,
@@ -223,7 +224,7 @@ $destinations = [
         'description' => "<p>L’Anse Boileau est une longue baie sinueuse dans le sud-ouest de Mahé, près de l’Anse à la Mouche et de l’Anse Louis. La localité du même nom se situe juste à côté de la plage et dispose de quelques infrastructures tels que des boutiques et supermarchés, une station de police, une école et des restaurants dont le très célèbre “Chez Plume”, qui a la réputation d’être l’un des meilleurs de l’île.</p>",
     ],
 
-    'Venise' => [
+    [   'name' => "<p>Venise</p>",
         'image' => "<img src='../images/destinations_images/venise.jpeg/200/300'>",
         'costByDay' => 100,
         'changeOfScenery' => 3,
@@ -231,7 +232,7 @@ $destinations = [
         'description' => "<p>Venise, capitale de la région de la Vénétie au nord de l'Italie, occupe plus de 100 petites îles dans un lagon de la mer Adriatique. La ville ne comprend aucune route, uniquement des canaux, dont le Grand Canal, bordé de palais gothiques et Renaissance. Au centre, la place Saint-Marc abrite la basilique Saint-Marc, recouverte de mosaïques byzantines, et le campanile de Saint-Marc, avec vue sur les toits rouges de Venise.</p>",
     ],
 
-    'Quebec' => [
+    [   'name' => "<p>Quebec</p>",
         'image' => "<img src='../images/destinations_images/Quebec.jpeg/200/300'>",
         'costByDay' => 120,
         'changeOfScenery' => 3,
@@ -239,7 +240,7 @@ $destinations = [
         'description' => "<p>Le Québec est une province majoritairement francophone à l'est du Canada. Elle comprend 2 villes dynamiques au sud, reliées par le chemin du Roy, route qui longe le Saint-Laurent. La métropole de Montréal doit son nom au mont Royal, colline aux trois sommets située au cœur de la ville.</p>",
     ],
 
-    'Tasilaq' => [
+    [   'name' => "<p>Tasilaq</p>",
         'image' => "<img src='../images/destinations_images/Tasilaq.jpeg/200/300'>",
         'costByDay' => 30,
         'changeOfScenery' => 3,
@@ -247,7 +248,7 @@ $destinations = [
         'description' => "<p>La ville a été fondée en 1894 lorsque Gustav Holm y fonde un comptoir2. Elle était auparavant connue sous le nom d'Ammassalik. Le premier Danois y résidant est le missionnaire Rüttel qui s'y installe dès 1894 avec sa femme, première européenne vue par les Ammassalimiut3. Les premières sages-femmes arrivent vers 1925 et la première infirmière vers 19354.</p>",
     ],
 
-    'Chinguetti' => [
+    [   'name' => "<p>Chinguetti</p>",
         'image' => "<img src='../images/destinations_images/Mauritanie.jpeg/200/300'>",
         'costByDay' => 100,
         'changeOfScenery' => 3,
@@ -255,7 +256,7 @@ $destinations = [
         'description' => "<p>Chinguetti est une ville du centre-ouest de la Mauritanie, située sur les plateaux désertiques de l'Adrar. Avec d'autres villes anciennes fortifiées (ksour) de Mauritanie, la ville est sur la liste du patrimoine mondial de l'UNESCO depuis 1996. La ville est séparée en deux par un oued qui, aujourd'hui, est asséché. D'un côté, il y a la vieille ville, et de l'autre la nouvelle.</p>",
     ],
 
-    'Ghardaia' => [
+    [   'name' => "<p>Ghardaia</p>",
         'image' => "<img src='../images/destinations_images/Ghardaia.jpeg/200/300'>",
         'costByDay' => 120,
         'changeOfScenery' => 3,
@@ -263,7 +264,7 @@ $destinations = [
         'description' => "<p>Ghardaïa est une commune de la wilaya de Ghardaïa en Algérie, dont elle est le chef-lieu, située à 600 km au sud d'Alger, elle est la capitale de la Vallée du Mzab. Ghardaïa fait partie du patrimoine mondial et elle est considérée comme site touristique d'importance majeure en Algérie, de par son architecture et son histoire,. La ville comprend une communauté mozabite importante.</p>",
     ],
 
-    'Huacachina' => [
+    [   'name' => "<p>Huacachina</p>",
         'image' => "<img src='../images/destinations_images/Huacachina.jpeg/200/300'>",
         'costByDay' => 140,
         'changeOfScenery' => 3,
@@ -271,7 +272,7 @@ $destinations = [
         'description' => "<p>Huacachina: c'est une superbe oasis à la périphérie d'Ica avec d'immenses dunes sur lesquelles on peut se balader ou glisser...</p>",
     ],
 
-    'Montauban' => [
+    [   'name' => "<p>Montauban</p>",
         'image' => "<img src='../images/destinations_images/Montauban.jpeg/200/300'>",
         'costByDay' => 45,
         'changeOfScenery' => 1,
@@ -279,7 +280,7 @@ $destinations = [
         'description' => "<p>Montauban est une commune française du Quercy, chef-lieu du département de Tarn-et-Garonne en région Occitanie. Montauban est la commune la plus peuplée du département de Tarn-et-Garonne et la sixième plus peuplée d'Occitanie. En 2016 la commune compte 60 444 habitants, appelés les Montalbanais.</p>",
     ],
 
-    'Helsinki' => [
+    [   'name' => "<p>Helsinki</p>",
         'image' => "<img src='../images/destinations_images/Helsinki.jpeg/200/300'>",
         'costByDay' => 70,
         'changeOfScenery' => 1,
@@ -287,7 +288,7 @@ $destinations = [
         'description' => "<p>Au sud de la Finlande, la capitale Helsinki occupe une péninsule du golfe de Finlande. Son avenue centrale, Mannerheimintie, regroupe différentes institutions parmi lesquelles le musée national qui retrace l'histoire du pays, de l'âge de pierre à nos jours. Elle compte également l'imposant Parlement et le musée d'Art contemporain Kiasma. Toute de briques rouges, richement décorée, la cathédrale Ouspenski surplombe le port.</p>",
     ],
 
-    'Tudela' => [
+    [   'name' => "<p>Tudela</p>",
         'image' => "<img src='../images/destinations_images/Bardenas-reales.jpeg/200/300'>",
         'costByDay' => 60,
         'changeOfScenery' => 1,
