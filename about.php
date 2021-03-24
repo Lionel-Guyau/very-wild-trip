@@ -33,7 +33,7 @@ include("header.php");
 
   <article class="card">
     <div class="profile-sidebar">
-      <img class="profile-image" src="images/Manu.jpg" alt=""><<<<<<< Quentin
+      <img class="profile-image" src="images/Manu.jpg" alt="">
     </div>
     <div class="profile-main">
       <h3 class="profile-name">Emmanuel R</h3>
