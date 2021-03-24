@@ -11,6 +11,9 @@ adding a city:
         'wheather' => 'Chaud','Tempéré','Froid','Humide','Aride' or 'Polaire',
         'description' => "<p> little description of your destination </p>",
     ],
+
+    existing : london , berlin , barcelone , lisboa , paris , Toulouse , dublin , tokyo , pekin , Sydney , moscov , tarkov , rio , los angeles , cuba ,
+    roma , bruxelle , rabat , johannesbourg , le caire , ouagadougou , bangkok , pyongyang , seoul ,
 */
 $destinations = [
     [   'name' => "<h2>London</h2>",
