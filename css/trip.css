@@ -91,3 +91,9 @@
   padding: 20px;
   line-height: 30px;
 }
+
+.refreshButton {
+  height: 50px;
+  width: 200px;
+  border-style: solid;
+}
