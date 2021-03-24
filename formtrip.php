@@ -3,11 +3,11 @@ include("header.php");
 include("pagesComponents/destinations_data.php");
 
 //   The vars    //
-// $budget = $_POST['budget'] ?? "";
-// $depay = $_POST['depay'] ?? "";
-// $wheather = $_POST['climat'] ?? "";
-// $person = $_POST['person'] ?? "";
-// $duree = $_POST['duree'] ?? "";
+$budget = $_POST['budget'] ?? "";
+$depay = $_POST['depay'] ?? "";
+$wheather = $_POST['climat'] ?? "";
+$person = $_POST['person'] ?? "";
+$duree = $_POST['duree'] ?? "";
 
 $budget = isset($_POST['budget']) ? $_POST['budget'] : '';
 $depay = isset($_POST['depay']) ? $_POST['depay'] : '';

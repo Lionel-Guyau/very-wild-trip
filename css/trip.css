@@ -66,6 +66,7 @@
 
   .tripPageDescription {
     font-size: small;
+    line-height: 15px;
   }
 }
 
@@ -88,4 +89,5 @@
   font-family: 'Englebert', sans-serif;
   color: --var(--lightColor);
   padding: 20px;
+  line-height: 30px;
 }
