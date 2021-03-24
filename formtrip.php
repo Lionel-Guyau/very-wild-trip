@@ -79,44 +79,30 @@ $formduree = isset($_POST['duree']) ? $_POST['duree'] : '';
 --   The cards   --
 ------------------>
 
-    <!-- <?php
-            echo "<div class ='tripPage'>";
-
-            foreach ($destinations as $destination => $content) {
-                echo "<div class='picturesContainer'>
-         <h2> $destination </h2> " .
-                    "<div class='destinationImage'>" .
-                    $content['image'] .
-                    "</div>
-                <div class='descriptionParagraph'>" .
-                    $content['description'] .
-                    "</div>                
-        </div>";
-            }
-
-            echo "<?div>";
-            ?> -->
-
     <?php
 
-    echo "<div class='form-trip-page'>";
+echo "<div class='form-trip-page'>";
 
+    $x = 0;
     foreach ($destinations as $destination => $content) {
-        if ($wheather == $content['wheather'] && $depay == $content['changeOfScenery'] && $budget >= $content['costByDay'] * $duree * $person) {
+        if ($wheather == $content['wheather'] && $depay == $content['changeOfScenery'] && $budget >= $content['costByDay'] * $duree * $person && $x < 5) {
 
             $total = ($content['costByDay'] * $person * $duree);
             echo "<div class='picturesContainer'>" .
-                "<h3>$destination</h3>" .
-                $content['image'] .
-                $content['description'] .
-                "<p>Dépaysement: {$content['changeOfScenery']}</br>
+                    $content['name'] .
+                    $content['image'] .                    
+                    $content['description'] .
+
+                        "<p>Dépaysement: {$content['changeOfScenery']}</br>
                             Climat: {$content['wheather']} </br>
                             Par jour/pers: {$content['costByDay']} €</br>
                             <b>Coût total: {$total} € </b></p>" .
                 "</div>";
+                $x ++;
         }
     }
-    echo "</div>";
+
+echo "</div>";
     ?>
 </div>
 <?php

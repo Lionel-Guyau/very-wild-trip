@@ -63,6 +63,10 @@
   .picturesContainer:active {
     transform: scaleY(1.0);
   }
+
+  .tripPageDescription {
+    font-size: small;
+  }
 }
 
 .descriptionParagraph {
@@ -71,12 +75,17 @@
   color: var(--darkColor);
   
 }
-.picturesContainer:active {
-  transform: scale(1.5);
-}
+
 .form-trip-page{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+}
+
+.tripPageDescription {
+  width: 100%;
+  font-family: 'Englebert', sans-serif;
+  color: --var(--lightColor);
+  padding: 20px;
 }
