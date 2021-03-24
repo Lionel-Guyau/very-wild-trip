@@ -25,8 +25,10 @@ foreach ($destinations as $destination => $content) {
         if (!empty($depay) && $depay != $content['changeOfScenery']) {
             continue;
         }
+        if (!empty($person) && !empty($duree)) {
+            $content['total'] = $content['costByDay'] * $person * $duree;
+        }
 
-        $content['total'] = $content['costByDay'] * $person * $duree;
         $filteredDestinations[$destination] = $content;
     } else {
     }
@@ -89,20 +91,20 @@ foreach ($destinations as $destination => $content) {
         <input type="submit" id="submit" value="Mes choix" />
 
     </form>
-    
-    <p class="formtrip-textright">
-       Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
-    </p>
+
+    <!-- <p class="formtrip-textright">
+        Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
+    </p> -->
 
     <h2>
         <?php if (!empty($filteredDestinations)) { ?>
             <?= count($filteredDestinations) ?> voyages correspondent à vos critères
         <?php } else { ?>
-            Nous n'avons trouvé aucun voyage correspondant à vos critères
+
         <?php } ?>
     </h2>
 
-    
+
 
 
     <!----------------
