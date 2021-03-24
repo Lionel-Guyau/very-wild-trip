@@ -41,7 +41,7 @@ include("header.php");
       <p class="profile-body">
       "Gamer" invétéré depuis sa tendre enfance.
       "Manu" comme préfère le nommer l'équipe, aime passer son temps (quand il n'est pas en train de jouer...) à écrires des lignes de codes ou faire des blagues à ses collègues de travail.<br>
-      Bon vivant et déconneur il n'hésitera pas à vous aider si vous le contacter.
+      FORZA VIOLA !!!
       </p>
     </div>
   </article>
