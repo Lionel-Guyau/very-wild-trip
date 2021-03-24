@@ -101,3 +101,10 @@
 .tripPageDescription a {
   display: contents;
 }
+
+.bottomButton {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2% ;
+}
