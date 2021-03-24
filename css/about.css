@@ -1,0 +1,123 @@
+/* cards */
+
+.card-list{
+    padding: 0;
+    margin: 0;
+    color:var(--lightColor);
+    text-align: unset;
+    display: flex;
+    padding: 5rem;
+    flex-grow: 1;
+    background-image: url(../images/cloud-sky.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardlist, p{
+    color:var(--darkestColor) ;
+}
+.profile-position{
+    font-size: 1.5rem;
+} 
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: var(--mediumColor);
+    opacity: 70%;
+    box-shadow: -2rem 0 7rem var(--darkColor);
+    text-align: center;
+    transition: .5s;
+    
+}
+.profile-name{
+    font-size: 1.8em;
+    font-family: 'Englebert', sans-serif;
+}
+img.profile-image{
+    border-radius: 50%;
+    opacity: 100%;
+    image-rendering: optimizeQuality;
+}
+.profil-body{
+    max-height: 500px;
+    max-width: 20%;   
+}
+.profile-main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.profile-position{
+    font-style: italic;
+}
+
+
+/* card reactions */
+
+.card:hover{
+    transform: translateY(-2rem);
+    transform: scale(1.1);
+    opacity: 100%;
+}
+.card:hover~.card{
+    transform: translateX(55px);   
+}
+.card:not(:first-child){
+    margin-left: -70px;
+}  
+.card:active{
+    transform: scale(1.2);
+}
+
+
+/* Media responsive powa */
+
+@media (max-width:880px){
+    .card {
+        margin: 0;
+        transform: translateY(10px);
+        padding: 0;        
+    }
+    .card-list {
+        display:list-item ;
+        padding: 10%;
+        height: auto;
+        width: auto;
+    }
+    .card:hover{
+        transform: translateX(0%);
+    }
+    .card:hover~.card{
+        transform: translateY(0px);
+    }
+    .card:not(:first-child){
+        margin-left: 0px;
+    }
+    .profile-main h3,
+    .profile-main p
+     {
+        text-align: center;
+        margin-left: 15px;
+
+    }
+    
+    
+    .profile-sidebar{
+        padding-top: 30px;
+    }
+    .profile-sidebar div{
+        max-height: 70px;
+    }
+    img.profile-image{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+
+/* Usefull comment area */
+
+/* var(--darkColor): #a4334b;
+var(--mediumColor): #c36678;
+var(--lightColor): #dfa5b0; */
