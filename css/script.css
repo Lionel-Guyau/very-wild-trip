@@ -222,7 +222,7 @@ header {
 .hamburger {
   height: 21px;
   width: 20px;
-  padding: 20px;
+  padding: 21px;
   float: right;
   cursor: pointer;
 
@@ -257,19 +257,19 @@ nav {
 nav ul {
   margin: 0;
   height: auto;
-  padding-left: 0;  
+  padding-left: 0;
 }
 nav li {
   display: block;
   margin: 0;
   text-align: center;
-  padding: 0.9;
 }
 nav a {
   color: var(--lightColor);
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
+  
 }
 
 header input[type="checkbox"]:checked ~ nav {
@@ -311,6 +311,7 @@ header label:hover{
   }
   nav a {
     padding: 15px .5em;
+    padding-bottom: 16px;
   }
   nav li{
     padding: 0;
