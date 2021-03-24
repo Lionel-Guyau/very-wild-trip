@@ -90,4 +90,6 @@
   color: --var(--lightColor);
   padding: 20px;
   line-height: 30px;
+  animation: fadeInLeft;
+  animation-duration: 2s;
 }
