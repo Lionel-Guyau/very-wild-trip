@@ -30,7 +30,7 @@ $duree = isset($_POST['duree']) ? $_POST['duree'] : '';
             </select>
         </div>
         <div>
-            <label for="inputClimat">Chois du climat</label>
+            <label for="inputClimat">Choix du climat</label>
             <select name="climat" id="inputClimat" required>
                 <option value="">Choix du climat</option>
                 <option value="Froid" <?= $wheather == 'Froid' ? 'selected' : '' ?>>Froid</option>
