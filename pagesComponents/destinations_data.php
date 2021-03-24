@@ -11,6 +11,9 @@ adding a city:
         'wheather' => 'Chaud','Tempéré','Froid','Humide','Aride' or 'Polaire',
         'description' => "<p> little description of your destination </p>",
     ],
+
+    existing : london , berlin , barcelone , lisboa , paris , Toulouse , dublin , tokyo , pekin , Sydney , moscov , tarkov , rio , los angeles , cuba ,
+    roma , bruxelle , rabat , johannesbourg , le caire , ouagadougou , bangkok , pyongyang , seoul ,
 */
 $destinations = [
     [   'name' => "<h2>London</h2>",
@@ -84,7 +87,7 @@ $destinations = [
         'description' => "<p>Lors de votre visite à Pékin, vous pourrez entrer dans la Cité Interdite, la forteresse depuis laquelle les empereurs ont régné pendant plus de 500 ans, et d'autres sites historiques tels que le Palais d'Été et le Temple du Ciel. Pékin est aussi le point de départ idéal pour découvrir l'une des sept merveilles du monde, la Grande Muraille de Chine.</p>",
     ],
 
-    [   'name' => "<h2>Sydney</p>",
+    [   'name' => "<h2>Sydney</h2>",
         'image' => "<img src='../images/destinations_images/Sydney.jpeg/200/300'>",
         'costByDay' => 150,
         'changeOfScenery' => 2,
