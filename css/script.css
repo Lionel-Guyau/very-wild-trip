@@ -14,6 +14,7 @@
   --darkestColor: #0A2933 ;
 }
 
+
 /* Main elements of the page */
 
 html,body
@@ -328,3 +329,22 @@ header label:hover{
 .flex-grow{
   flex-grow: 1;
 }
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--mediumColor); 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, rgba(238,248,252,1) 0%, rgba(102,194,225,1) 35%, rgba(102,194,225,1) 70%, rgba(238,248,252,1) 100%); 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mediumColor  ); 
+}
+
+background: rgb(238,248,252);
+background: linear-gradient(90deg, rgba(238,248,252,1) 0%, rgba(102,194,225,1) 35%, rgba(102,194,225,1) 70%, rgba(238,248,252,1) 100%);
