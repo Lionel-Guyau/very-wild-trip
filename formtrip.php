@@ -89,6 +89,10 @@ foreach ($destinations as $destination => $content) {
         <input type="submit" id="submit" value="Mes choix" />
 
     </form>
+    
+    <p class="formtrip-textright">
+       Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
+    </p>
 
     <h2>
         <?php if (!empty($filteredDestinations)) { ?>
@@ -98,10 +102,7 @@ foreach ($destinations as $destination => $content) {
         <?php } ?>
     </h2>
 
-    <p class="formtrip-textright">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione molestiae, commodi veniam,
-        dolores non hic deleniti blanditiis explicabo aut, voluptatibus labore vel atque reiciendis velit mollitia rerum maxime delectus.
-    </p>
+    
 
 
     <!----------------

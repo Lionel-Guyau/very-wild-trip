@@ -93,3 +93,9 @@
   animation: fadeInLeft;
   animation-duration: 2s;
 }
+
+.refreshButton {
+  height: 50px;
+  width: 200px;
+  border-style: solid;
+}
