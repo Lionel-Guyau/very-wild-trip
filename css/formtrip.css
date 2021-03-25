@@ -3,19 +3,33 @@
 /* --------------*/
 
 form {
-  /* display: flex; */
-  /* flex-flow: column; */
+  display: flex;
+  flex-flow: column;
   padding: 2rem 1rem;
   background-color: var(--lightColor);
   border-radius: 20px;
   margin: 1.9rem;
+  margin-bottom: 600px;
+  margin-top:118px;
+  /* min-height: 350px; */
   width: 50%;
   max-width: 300px;
-  /* display: flex; */
-  /* flex-grow: 1; */
+  max-height: 300px;
+  display: flex;
+  /* position: fixed; */
+}
+.result-message{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.formtrip-trip{
+width: 100%;
+display: flex;
+/* display:inline-flex; */
+flex-wrap: wrap;
+justify-content: space-evenly;
 
-
-  
 }
 
 .formtrip-body {
@@ -23,6 +37,8 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   flex-grow: 1;
+  /* flex-wrap: wrap; */
+  display: flex;
 }
 
 form div {
@@ -51,7 +67,7 @@ form input {
 form select {
   border-radius: 10px;
   text-align: center;
-  /* border: 1px solid var(--HoverElement); */
+  border: 1px solid var(--HoverElement);
   font-weight: 700;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
@@ -123,8 +139,13 @@ form #submit:hover {
     background-color: var(--lightColor);
     border-radius: 20px;
     width: 100%;
+    margin: auto;
+    margin-top: 20px;
 
     /* margin: 1rem; */
+  }
+  .formtrip-body{
+    flex-wrap: wrap;
   }
   .formtrip-body .instruction {
     display: none;
