@@ -4,7 +4,6 @@
 
 ![Image of index.php](https://raw.githubusercontent.com/leamahler85/images/main/first-page.png)
 
-
 ## What is *Very Wild Trip* ?
 
 We are a team of students at the Wild Code School Toulouse and *Very Wild Trip* is our very first team project !
