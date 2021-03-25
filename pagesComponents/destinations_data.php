@@ -5,7 +5,7 @@ adding a city:
     And add your picture in the 'images/destinations_images/' directory, and named it like 'Your City.jpeg'.
     
     [   'name'=> "your city",
-        'image' => "src='images/destinations_images/Yourcity.jpeg/200/300'>",
+        'image' => "src='images/destinations_images/Yourcity.jpeg>",
         'costByDay' => xx,
         'changeOfScenery' => 1,2 or 3,
         'wheather' => 'Chaud','Tempéré','Froid','Humide','Aride' or 'Polaire',
@@ -18,7 +18,7 @@ adding a city:
 */
 $destinations = [
     [   'name' => "London",
-        'image' => "src='../images/destinations_images/London.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/London.jpeg",
         'costByDay' => 130,
         'changeOfScenery' => 1,
         'wheather' => "Humide",
@@ -26,7 +26,7 @@ $destinations = [
     ],
 
     [   'name' => "Berlin",
-        'image' => "src='../images/destinations_images/Berlin.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Berlin.jpeg",
         'costByDay' => 100,
         'changeOfScenery' => 2,
         'wheather' => "Froid",
@@ -34,7 +34,7 @@ $destinations = [
     ],
 
     [   'name' => "Barcelona",
-        'image' => "src='../images/destinations_images/Barcelona.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Barcelona.jpeg",
         'costByDay' => 80,
         'changeOfScenery' => 1,
         'wheather' => "Chaud",
@@ -42,7 +42,7 @@ $destinations = [
     ],
 
     [   'name' => "Lisboa",
-        'image' => "src='../images/destinations_images/Lisboa.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Lisboa.jpeg",
         'costByDay' => 70,
         'changeOfScenery' => 1,
         'wheather' => "Chaud",
@@ -50,7 +50,7 @@ $destinations = [
     ],
 
     [   'name' => "Paris",
-        'image' => "src='../images/destinations_images/Paris.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Paris.jpeg",
         'costByDay' => 160,
         'changeOfScenery' => 1,
         'wheather' => "Humide",
@@ -58,14 +58,14 @@ $destinations = [
     ],
 
     [   'name' => "Toulouse",
-        'image' => "src='../images/destinations_images/Toulouse.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Toulouse.jpeg",
         'costByDay' => 90,
         'changeOfScenery' => 1,
         'wheather' => "Chaud",
         'description' => "Toulouse est la capitale de l’Occitanie. Chaleureuse, spontanée, passionnée, elle vous accueille dans son écrin de briques orangées, façonné par 2 000 ans d’histoire. Grands monuments et lieux dédiés à la culture aéronautique et spatiale s’y côtoient avec bonheur. Le soleil, le sens de la fête, la douceur de vivre s’y mélangent, pour en faire la ville où beaucoup de Français rêvent de venir s’installer.",
     ],
     [   'name' => "Dublin",
-        'image' => "src='../images/destinations_images/Dublin.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Dublin.jpeg",
         'costByDay' => 50,
         'changeOfScenery' => 2,
         'wheather' => "Humide",
@@ -73,7 +73,7 @@ $destinations = [
     ],
 
     [   'name' => "Tokyo",
-        'image' => "src='../images/destinations_images/Tokyo.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Tokyo.jpeg",
         'costByDay' => 200,
         'changeOfScenery' => 3,
         'wheather' => "Tempéré",
@@ -81,7 +81,7 @@ $destinations = [
     ],
 
     [   'name' => "Pekin",
-        'image' => "src='../images/destinations_images/Pekin.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Pekin.jpeg",
         'costByDay' => 90,
         'changeOfScenery' => 3,
         'wheather' => "Tempéré",
@@ -89,7 +89,7 @@ $destinations = [
     ],
 
     [   'name' => "Sydney",
-        'image' => "src='../images/destinations_images/Sydney.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Sydney.jpeg",
         'costByDay' => 150,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -97,7 +97,7 @@ $destinations = [
     ],
 
     [   'name' => "Moscov",
-        'image' => "src='../images/destinations_images/Moscov.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Moscov.jpeg",
         'costByDay' => 90,
         'changeOfScenery' => 2,
         'wheather' => "Polaire",
@@ -105,7 +105,7 @@ $destinations = [
     ],
 
     [   'name' => "Tarkov",
-        'image' => "src='../images/destinations_images/Tarkov.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Tarkov.jpeg",
         'costByDay' => 0,
         'changeOfScenery' => 3,
         'wheather' => "Humide",
@@ -113,7 +113,7 @@ $destinations = [
     ],
 
     [   'name' => "Rio",
-        'image' => "src='../images/destinations_images/Rio.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Rio.jpeg",
         'costByDay' => 50,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -121,7 +121,7 @@ $destinations = [
     ],
 
     [   'name' => "Los Angeles",
-        'image' => "src='../images/destinations_images/Los_Angeles.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Los_Angeles.jpeg",
         'costByDay' => 250,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -129,7 +129,7 @@ $destinations = [
     ],
 
     [   'name' => "Cuba",
-        'image' => "src='../images/destinations_images/Cuba.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Cuba.jpeg",
         'costByDay' => 30,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -137,7 +137,7 @@ $destinations = [
     ],
 
     [   'name' => "Roma",
-        'image' => "src='../images/destinations_images/Roma.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Roma.jpeg",
         'costByDay' => 150,
         'changeOfScenery' => 1,
         'wheather' => "Tempéré",
@@ -145,7 +145,7 @@ $destinations = [
     ],
 
     [   'name' => "Bruxelle",
-        'image' => "src='../images/destinations_images/Bruxelle.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Bruxelle.jpeg",
         'costByDay' => 100,
         'changeOfScenery' => 1,
         'wheather' => "Humide",
@@ -153,7 +153,7 @@ $destinations = [
     ],
 
     [   'name' => "Rabat",
-        'image' => "src='../images/destinations_images/Rabat.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Rabat.jpeg",
         'costByDay' => 40,
         'changeOfScenery' => 2,
         'wheather' => "Aride",
@@ -161,7 +161,7 @@ $destinations = [
     ],
 
     [   'name' => "Johannesbourg",
-        'image' => "src='../images/destinations_images/Johannesbourg.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Johannesbourg.jpeg",
         'costByDay' => 170,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -169,7 +169,7 @@ $destinations = [
     ],
 
     [   'name' => "Le Caire",
-        'image' => "src='../images/destinations_images/Le_Caire.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Le_Caire.jpeg",
         'costByDay' => 30,
         'changeOfScenery' => 2,
         'wheather' => "Aride",
@@ -177,7 +177,7 @@ $destinations = [
     ],
 
     [   'name' => "Ouagadougou",
-        'image' => "src='../images/destinations_images/Ouagadougou.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Ouagadougou.jpeg",
         'costByDay' => 10,
         'changeOfScenery' => 2,
         'wheather' => "Aride",
@@ -185,7 +185,7 @@ $destinations = [
     ],
 
     [   'name' => "Bangkok",
-        'image' => "src='../images/destinations_images/Bangkok.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Bangkok.jpeg",
         'costByDay' => 15,
         'changeOfScenery' => 3,
         'wheather' => "Chaud",
@@ -193,7 +193,7 @@ $destinations = [
     ],
 
     [   'name' => "Pyongyang",
-        'image' => "src='../images/destinations_images/Pyongyang.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Pyongyang.jpeg",
         'costByDay' => 10,
         'changeOfScenery' => 3,
         'wheather' => "Humide",
@@ -201,7 +201,7 @@ $destinations = [
     ],
 
     [   'name' => "Seoul",
-        'image' => "src='../images/destinations_images/Seoul.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Seoul.jpeg",
         'costByDay' => 120,
         'changeOfScenery' => 3,
         'wheather' => "Tempéré",
@@ -209,7 +209,7 @@ $destinations = [
     ],
 
     [   'name' => "New-York",
-        'image' => "src='../images/destinations_images/NewYork.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/NewYork.jpeg",
         'costByDay' => 150,
         'changeOfScenery' => 2,
         'wheather' => "Tempéré",
@@ -217,7 +217,7 @@ $destinations = [
     ],
 
     [   'name' => "Anse Boileau Mahe",
-        'image' => "src='../images/destinations_images/AnseBoileauMahe.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/AnseBoileauMahe.jpeg",
         'costByDay' => 200,
         'changeOfScenery' => 3,
         'wheather' => "Chaud",
@@ -225,7 +225,7 @@ $destinations = [
     ],
 
     [   'name' => "Venise",
-        'image' => "src='../images/destinations_images/venise.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/venise.jpeg",
         'costByDay' => 100,
         'changeOfScenery' => 3,
         'wheather' => "Humide",
@@ -233,7 +233,7 @@ $destinations = [
     ],
 
     [   'name' => "Quebec",
-        'image' => "src='../images/destinations_images/Quebec.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Quebec.jpeg",
         'costByDay' => 120,
         'changeOfScenery' => 3,
         'wheather' => "Froid",
@@ -241,7 +241,7 @@ $destinations = [
     ],
 
     [   'name' => "Tasilaq",
-        'image' => "src='../images/destinations_images/Tasilaq.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Tasilaq.jpeg",
         'costByDay' => 30,
         'changeOfScenery' => 3,
         'wheather' => "Polaire",
@@ -249,7 +249,7 @@ $destinations = [
     ],
 
     [   'name' => "Chinguetti",
-        'image' => "src='../images/destinations_images/Mauritanie.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Mauritanie.jpeg",
         'costByDay' => 100,
         'changeOfScenery' => 3,
         'wheather' => "Aride",
@@ -257,7 +257,7 @@ $destinations = [
     ],
 
     [   'name' => "Ghardaia",
-        'image' => "src='../images/destinations_images/Ghardaia.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Ghardaia.jpeg",
         'costByDay' => 120,
         'changeOfScenery' => 3,
         'wheather' => "Aride",
@@ -265,7 +265,7 @@ $destinations = [
     ],
 
     [   'name' => "Huacachina",
-        'image' => "src='../images/destinations_images/Huacachina.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Huacachina.jpeg",
         'costByDay' => 140,
         'changeOfScenery' => 3,
         'wheather' => "Aride",
@@ -273,7 +273,7 @@ $destinations = [
     ],
 
     [   'name' => "Montauban",
-        'image' => "src='../images/destinations_images/Montauban.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Montauban.jpeg",
         'costByDay' => 45,
         'changeOfScenery' => 1,
         'wheather' => "Froid",
@@ -281,7 +281,7 @@ $destinations = [
     ],
 
     [   'name' => "Helsinki",
-        'image' => "src='../images/destinations_images/Helsinki.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Helsinki.jpeg",
         'costByDay' => 70,
         'changeOfScenery' => 1,
         'wheather' => "Polaire",
@@ -289,7 +289,7 @@ $destinations = [
     ],
 
     [   'name' => "Tudela",
-        'image' => "src='../images/destinations_images/Bardenas-reales.jpeg/200/300'",
+        'image' => "src='../images/destinations_images/Bardenas-reales.jpeg",
         'costByDay' => 60,
         'changeOfScenery' => 1,
         'wheather' => "Aride",
@@ -297,7 +297,7 @@ $destinations = [
     ],
 
     [   'name'=> "Glasgow",
-        'image' => "src='images/destinations_images/Glasgow.jpeg/200/300'",
+        'image' => "src='images/destinations_images/Glasgow.jpeg",
         'costByDay' => 90,
         'changeOfScenery' => 1,
         'wheather' => "Froid",
@@ -305,7 +305,7 @@ $destinations = [
     ],
 
     [   'name'=> "Manchester",
-        'image' => "src='images/destinations_images/Manchester.jpeg/200/300'",
+        'image' => "src='images/destinations_images/Manchester.jpeg",
         'costByDay' => 80,
         'changeOfScenery' => 1,
         'wheather' => "Humide",
@@ -313,7 +313,7 @@ $destinations = [
     ],
 
     [   'name'=> "Oulan-Bator",
-        'image' => "src='images/destinations_images/Oulan-Bator.jpeg/200/300'",
+        'image' => "src='images/destinations_images/Oulan-Bator.jpeg",
         'costByDay' => 30,
         'changeOfScenery' => 3,
         'wheather' => "Humide",
@@ -321,7 +321,7 @@ $destinations = [
     ],
 
     [   'name'=> "Montevideo",
-        'image' => "src='images/destinations_images/Montevideo.jpeg/200/300'",
+        'image' => "src='images/destinations_images/Montevideo.jpeg",
         'costByDay' => 50,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -329,7 +329,7 @@ $destinations = [
     ],
 
     [   'name'=> "Petrolina",
-        'image' => "src='images/destinations_images/Petrolina.jpeg/200/300'",
+        'image' => "src='images/destinations_images/Petrolina.jpeg",
         'costByDay' => 70,
         'changeOfScenery' => 2,
         'wheather' => "Chaud",
@@ -338,7 +338,7 @@ $destinations = [
     ],
     
     [   'name'=> "Stockholm",
-        'image' => "src='images/destinations_images/Stockholm.jpeg/200/300'",
+        'image' => "src='images/destinations_images/Stockholm.jpeg",
         'costByDay' => 100,
         'changeOfScenery' => 1,
         'wheather' => "Polaire",
