@@ -29,7 +29,7 @@
     box-shadow: -2rem 0 7rem var(--darkColor);
     text-align: center;
     transition: .5s;
-    max-height: 60vh;
+    max-height: 600px;
     
 }
 .profile-name{
