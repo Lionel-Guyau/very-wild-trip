@@ -40,6 +40,15 @@ if (!empty($_POST)) {
 <!-----------------
 --    The Form  ---
 ------------------>
+<div class="result-message">
+    <h2>
+        <?php if (!empty($filteredDestinations)) { ?>
+            <?= count($filteredDestinations) ?> voyages correspondent à vos critères
+        <?php } else { ?>
+    
+        <?php } ?>
+    </h2>
+</div>
 <div class="formtrip-body">
     <form action="formtrip.php" method="POST">
         <div>
@@ -92,21 +101,19 @@ if (!empty($_POST)) {
         
     </form>
     <div class='formtrip-trip'>
-        <div class="result-message">
-            <h2>
-                <?php if (!empty($filteredDestinations)) { ?>
-                    <?= count($filteredDestinations) ?> voyages correspondent à vos critères
-                <?php } else { ?>
-            
-                <?php } ?>
-            </h2>
-        </div>
         <?php foreach ($filteredDestinations as $destination => $content) {  ?>
             <div class='picturesContainer'>
-                <?= $content['name'] ?>
-                <?= $content['image'] ?>
-                <?= $content['description'] ?>
-                
+
+                <h2>
+                    <?= $content['name'] ?>
+                </h2>
+
+                <img <?= $content['image'] ?>>
+
+                <p>
+                    <?= $content['description'] ?>
+                </p>
+
                 <div class="criterias">
                     <p>
                         Dépaysement : <?= $content['changeOfScenery'] ?>
