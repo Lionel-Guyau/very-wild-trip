@@ -24,7 +24,7 @@
         <input id="nav-toggle" type="checkbox" class="hidden" />
 
         <a href ="index.php" class="logo-button">
-            <img class ="nav-logo" src="images/55a4640511d949dcb8dfc257f0a01890.png">
+            <img class ="nav-logo" src="images/Logoheader.png">
         </a>
         <div class="flex-grow"></div>
         <nav>

@@ -99,7 +99,7 @@ footer {
   text-align: center;
   background-color: var(--darkColor);
   color: var(--lightColor);
-  position: fixed;
+  /* position: fixed; */
 }
 
 footer img {
