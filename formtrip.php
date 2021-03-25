@@ -11,9 +11,10 @@ $duree = isset($_POST['duree']) ? $_POST['duree'] : '';
 
 $filteredDestinations = [];
 
-// Application des critères sur la liste de voyage
-foreach ($destinations as $destination => $content) {
-    if (!empty($_POST)) {
+// Trip Criterias //
+if (!empty($_POST)) {
+    foreach ($destinations as $destination => $content) {
+
         if (!empty($budget) && !empty($person) && !empty($duree) && $budget < $content['costByDay'] * $duree * $person) {
             continue;
         }
@@ -30,7 +31,6 @@ foreach ($destinations as $destination => $content) {
         }
 
         $filteredDestinations[$destination] = $content;
-    } else {
     }
 }
 
@@ -43,9 +43,11 @@ foreach ($destinations as $destination => $content) {
 <div class="result-message">
     <h2>
         <?php if (!empty($filteredDestinations)) { ?>
-            <?= count($filteredDestinations) ?> voyages correspondent à vos critères
-        <?php } else { ?>
-    
+            <?php if (count($filteredDestinations) < 2) { ?>
+                <?= count($filteredDestinations) ?> voyage correspond à vos critères
+            <?php } else { ?>
+                <?= count($filteredDestinations) ?> voyages correspondent à vos critères
+            <?php } ?>
         <?php } ?>
     </h2>
 </div>
@@ -65,7 +67,7 @@ foreach ($destinations as $destination => $content) {
             </select>
         </div>
         <div>
-            <label for="inputClimat">Chois du climat</label>
+            <label for="inputClimat">Choix du climat</label>
             <select name="climat" id="inputClimat">
                 <option value="">Choix du climat</option>
                 <option value="Froid" <?= $wheather == 'Froid' ? 'selected' : '' ?>>Froid</option>
@@ -96,10 +98,16 @@ foreach ($destinations as $destination => $content) {
                 <option value="30" <?= $duree == '30' ? 'selected' : '' ?>>Mois (30 jours)</option>
             </select>
         </div>
-        
+
         <input type="submit" id="submit" value="Mes choix" />
-        
+
     </form>
+
+
+    <!-----------------
+--    The Cards ---
+------------------>
+
     <div class='formtrip-trip'>
         <?php foreach ($filteredDestinations as $destination => $content) {  ?>
             <div class='picturesContainer'>
@@ -118,11 +126,11 @@ foreach ($destinations as $destination => $content) {
                     <p>
                         Dépaysement : <?= $content['changeOfScenery'] ?>
                     </p>
-                    
+
                     <p>
                         Climat : <?= $content['wheather'] ?>
                     </p>
-                    
+
                     <p>
                         Par jour/pers : <?= $content['costByDay'] ?> €
                     </p>
@@ -136,19 +144,6 @@ foreach ($destinations as $destination => $content) {
             </div>
         <?php } ?>
     </div>
-
-    <!-- <p class="formtrip-textright">
-        Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
-    </p> -->
-
-
-
-
-
-    <!----------------
-    --   The cards   --
------------------->
-
 </div>
 
 <?php include("footer.php"); ?>
