@@ -205,7 +205,6 @@ header {
   background-color: var(--darkColor);
   font-family: "Englebert", sans-serif;
   font-size: 1.5rem;
-  position: fixed;
 }
 
 .hamburger {
