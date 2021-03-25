@@ -55,6 +55,20 @@
   align-content: center;
 }
 
+.tripPageDescription {
+  width: 100%;
+  font-family: 'Englebert', sans-serif;
+  color: --var(--lightColor);
+  padding: 20px;
+  line-height: 30px;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+
+.tripPageDescription a {
+  display: contents;
+}
+
 .bottomButton {
   width: 100%;
   text-align: center;
@@ -62,6 +76,12 @@
   margin-top: 2% ;
 }
 
+.descriptionParagraph {
+  font-style: italic;
+  font-size: small;
+  color: var(--darkColor);
+  
+}
 
 
 @media (max-width: 800px) {
@@ -86,18 +106,11 @@
     transform: scaleY(1.0);
   }
 
+  .tripPageDescription {
+    font-size: small;
+    line-height: 15px;
+  }
 }
 
-.form-trip-page{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
 
-.bottomButton {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 2%;
-  margin-top: 2% ;
-}
+
