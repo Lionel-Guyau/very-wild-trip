@@ -7,6 +7,7 @@
   background-color: var(--lightColor);
   padding: 0px 0px;
   margin: 1.9rem;
+  margin-top: 0;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 20px;
@@ -57,13 +58,12 @@
   }
   
   .picturesContainer h2 {
-    font-size: x-small;
+    /* font-size: x-small; */
   }
 
   .picturesContainer {
     margin: 15px 15px;
-    width: 200px;
-    width: 80%;
+    width: 87%;
   }
 
   .picturesContainer:active {
