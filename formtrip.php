@@ -103,10 +103,17 @@ foreach ($destinations as $destination => $content) {
     <div class='formtrip-trip'>
         <?php foreach ($filteredDestinations as $destination => $content) {  ?>
             <div class='picturesContainer'>
-                <?= $content['name'] ?>
-                <?= $content['image'] ?>
-                <?= $content['description'] ?>
-                
+
+                <h2>
+                    <?= $content['name'] ?>
+                </h2>
+
+                <img <?= $content['image'] ?>>
+
+                <p>
+                    <?= $content['description'] ?>
+                </p>
+
                 <div class="criterias">
                     <p>
                         Dépaysement : <?= $content['changeOfScenery'] ?>
