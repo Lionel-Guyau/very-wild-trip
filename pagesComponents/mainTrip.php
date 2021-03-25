@@ -28,6 +28,5 @@ $destinations = array_slice($destinations, 0, 5);
 
                         </div>
                 <?php } ?>
-         
-        <div class='bottomButton'><a href='trip.php'>rafraîchir la page</a></div>
+                
 </div>

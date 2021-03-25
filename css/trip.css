@@ -48,6 +48,35 @@
   background-size: cover;
 }
 
+.form-trip-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.tripPageDescription {
+  width: 100%;
+  font-family: 'Englebert', sans-serif;
+  color: --var(--lightColor);
+  padding: 20px;
+  line-height: 30px;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+
+.tripPageDescription a {
+  display: contents;
+}
+
+.descriptionParagraph {
+  font-style: italic;
+  font-size: small;
+  color: var(--darkColor);
+  
+}
+
+
 @media (max-width: 800px) {
   .picturesContainer img {
     width: 190px;
@@ -76,37 +105,5 @@
   }
 }
 
-.descriptionParagraph {
-  font-style: italic;
-  font-size: small;
-  color: var(--darkColor);
-  
-}
 
-.form-trip-page{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
 
-.tripPageDescription {
-  width: 100%;
-  font-family: 'Englebert', sans-serif;
-  color: --var(--lightColor);
-  padding: 20px;
-  line-height: 30px;
-  animation: fadeInLeft;
-  animation-duration: 2s;
-}
-
-.tripPageDescription a {
-  display: contents;
-}
-
-.bottomButton {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 2%;
-  margin-top: 2% ;
-}
