@@ -32,6 +32,8 @@ if (!empty($_POST)) {
 
         $filteredDestinations[$destination] = $content;
     }
+} else {
+    $filteredDestinations = $destinations;
 }
 
 ?>
