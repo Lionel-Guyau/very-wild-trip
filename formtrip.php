@@ -87,46 +87,35 @@ if (!empty($_POST)) {
                 <option value="30" <?= $duree == '30' ? 'selected' : '' ?>>Mois (30 jours)</option>
             </select>
         </div>
-
+        
         <input type="submit" id="submit" value="Mes choix" />
-
+        
     </form>
-
-    <p class="formtrip-textright">
-        Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
-    </p>
-
-    <h2>
-        <?php if (!empty($filteredDestinations)) { ?>
-            <?= count($filteredDestinations) ?> voyages correspondent à vos critères
-        <?php } else { ?>
-
-        <?php } ?>
-    </h2>
-
-
-
-
-    <!----------------
-    --   The cards   --
------------------->
-
-    <div class='form-trip-page'>
+    <div class='formtrip-trip'>
+        <div class="result-message">
+            <h2>
+                <?php if (!empty($filteredDestinations)) { ?>
+                    <?= count($filteredDestinations) ?> voyages correspondent à vos critères
+                <?php } else { ?>
+            
+                <?php } ?>
+            </h2>
+        </div>
         <?php foreach ($filteredDestinations as $destination => $content) {  ?>
             <div class='picturesContainer'>
                 <?= $content['name'] ?>
                 <?= $content['image'] ?>
                 <?= $content['description'] ?>
-
+                
                 <div class="criterias">
                     <p>
                         Dépaysement : <?= $content['changeOfScenery'] ?>
                     </p>
-
+                    
                     <p>
                         Climat : <?= $content['wheather'] ?>
                     </p>
-
+                    
                     <p>
                         Par jour/pers : <?= $content['costByDay'] ?> €
                     </p>
@@ -140,6 +129,19 @@ if (!empty($_POST)) {
             </div>
         <?php } ?>
     </div>
+
+    <!-- <p class="formtrip-textright">
+        Veulliez renseigner ce formulaire de recherche afin que notre site vous proposes la ou les destinations de vos rèves !
+    </p> -->
+
+
+
+
+
+    <!----------------
+    --   The cards   --
+------------------>
+
 </div>
 
 <?php include("footer.php"); ?>
