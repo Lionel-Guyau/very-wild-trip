@@ -47,8 +47,8 @@ body {
   font-weight: bold;
   font-size: 1em;
   margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
   animation: fadeInLeft;
   animation-duration: 2s;
