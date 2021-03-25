@@ -40,7 +40,7 @@ include("header.php");
       <p class="profile-position">Web Developer</p>
       <p class="profile-body">
       <scan><b>"Gamer"</b>invétéré depuis sa tendre enfance.
-      "Manu" comme préfère le nommer l'équipe, aime passer son temps (quand il n'est pas en train de jouer...) à écrires des lignes de codes ou faire des blagues à ses collègues de travail.<br>
+      "Manu" comme préfère le nommer l'équipe, aime passer son temps (quand il n'est pas en train de jouer...) à écrire des lignes de codes ou faire des blagues à ses collègues de travail.<br>
       FORZA VIOLA !!!
       </p>
     </div>
