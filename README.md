@@ -10,7 +10,7 @@ We are a team of students at the Wild Code School Toulouse and *Very Wild Trip* 
 
 The goal of our project was to build a web design, mobile-first, professional & fully responsive application. 
 
-We decided to develop a travel website designed to determine the best destinations for our users according to some criterias : budget, number of travelers, duration of the trip, change of scenery & climate situation. Thanks to our form, the destinations ranks differently depending of these criterias.
+We decided to develop a travel website designed to determine the best destinations for our users according to some criterias : budget, number of travelers, duration of the trip, change of scenery & climate situation. Thanks to our form, the destinations rank differently depending of these criterias.
 
 
 ## Languages and Tools
