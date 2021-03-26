@@ -56,7 +56,7 @@ if (!empty($_POST)) {
 <div class="formtrip-body">
     <form action="formtrip.php" method="POST">
         <div>
-            <label for="inputTrip">Votre budget</label>
+            <label for="inputTrip">Votre budget*</label>
             <input type="number" name="budget" id="inputTrip" required value="<?= $budget ?>" />
         </div>
         <div>
@@ -81,7 +81,7 @@ if (!empty($_POST)) {
             </select>
         </div>
         <div>
-            <label for="inputPerson">Nombre de personne</label>
+            <label for="inputPerson">Nombre de personne*</label>
             <select name="person" id="inputPerson" required>
                 <option value="">De 1 à 4</option>
                 <option value="1" <?= $person == '1' ? 'selected' : '' ?>>1</option>
@@ -91,7 +91,7 @@ if (!empty($_POST)) {
             </select>
         </div>
         <div>
-            <label for="inputDuree">Quelle durée</label>
+            <label for="inputDuree">Quelle durée*</label>
             <select name="duree" id="inputDuree" required>
                 <option value="">En nombre de jour</option>
                 <option value="2" <?= $duree == '2' ? 'selected' : '' ?>>Week-end (2 jours)</option>
