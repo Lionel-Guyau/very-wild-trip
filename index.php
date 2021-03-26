@@ -47,13 +47,13 @@ include("header.php");
     </div>
     <div class="toptrips">
       <div class="city-picture">
-        <img src="images/destinations_images/Pyongyang.jpeg" alt="">
+        <img src="images/destinations_images/AnseBoileauMahe.jpeg" alt="">
       </div>
       <div class="city-name">
         <h2>TOP 3 </h2>
       </div>
       <div class="city-description">
-        <p><strong>PYONGYANG, L'ETOILE DU NORD</strong></p>
+        <p><strong>LES SEYCHELLES, INDETRONABLE</strong></p>
       </div>
     </div>
   </div>

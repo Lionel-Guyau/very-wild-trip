@@ -38,7 +38,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Barcelona",
+        'name' => "Barcelone",
         'image' => "src='../images/destinations_images/Barcelona.jpeg'",
         'costByDay' => 80,
         'changeOfScenery' => 1,
@@ -47,7 +47,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Lisboa",
+        'name' => "Lisbone",
         'image' => "src='../images/destinations_images/Lisboa.jpeg'",
         'costByDay' => 70,
         'changeOfScenery' => 1,
@@ -91,7 +91,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Pekin",
+        'name' => "Pékin",
         'image' => "src='../images/destinations_images/Pekin.jpeg'",
         'costByDay' => 90,
         'changeOfScenery' => 3,
@@ -109,21 +109,12 @@ $destinations = [
     ],
 
     [
-        'name' => "Moscov",
+        'name' => "Moscou",
         'image' => "src='../images/destinations_images/Moscov.jpeg'",
         'costByDay' => 90,
         'changeOfScenery' => 2,
         'wheather' => "Polaire",
         'description' => "Un séjour dans la capitale russe est également un voyage entre la Russie des Tsars, la période communiste et la Russie contemporaine, qui a accroché le wagon de l’économie capitaliste au début des années 90. Pourquoi visiter Moscou ? Car elle se visite au fil de ses musées et de son architecture typique !",
-    ],
-
-    [
-        'name' => "Tarkov",
-        'image' => "src='../images/destinations_images/Tarkov.jpeg'",
-        'costByDay' => 0,
-        'changeOfScenery' => 3,
-        'wheather' => "Humide",
-        'description' => "Tarkov est une ville du nord-ouest de la Russie, une entité municipale de la région de Norvinsk et l'une des deux principales villes de la zone économique spéciale de Norvinsk. Les habitants, aussi appelés 'Scav', sont plutôt rustre mais ne manquerons jamais de trinquer avec vous !",
     ],
 
     [
@@ -154,7 +145,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Roma",
+        'name' => "Rome",
         'image' => "src='../images/destinations_images/Roma.jpeg'",
         'costByDay' => 150,
         'changeOfScenery' => 1,
@@ -163,7 +154,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Bruxelle",
+        'name' => "Bruxelles",
         'image' => "src='../images/destinations_images/Bruxelle.jpeg'",
         'costByDay' => 100,
         'changeOfScenery' => 1,
@@ -181,7 +172,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Johannesbourg",
+        'name' => "Johannesburg",
         'image' => "src='../images/destinations_images/Johannesbourg.jpeg'",
         'costByDay' => 170,
         'changeOfScenery' => 2,
@@ -217,16 +208,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Pyongyang",
-        'image' => "src='../images/destinations_images/Pyongyang.jpeg'",
-        'costByDay' => 10,
-        'changeOfScenery' => 3,
-        'wheather' => "Humide",
-        'description' => "Pays difficile d’accès et peu engageant au premier abord, la Corée du Nord a pourtant un potentiel touristique. Venez le découvrir !",
-    ],
-
-    [
-        'name' => "Seoul",
+        'name' => "Séoul",
         'image' => "src='../images/destinations_images/Seoul.jpeg'",
         'costByDay' => 120,
         'changeOfScenery' => 3,
@@ -235,7 +217,7 @@ $destinations = [
     ],
 
     [
-        'name' => "New-York",
+        'name' => "New York",
         'image' => "src='../images/destinations_images/NewYork.jpeg'",
         'costByDay' => 150,
         'changeOfScenery' => 2,
@@ -244,7 +226,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Anse Boileau Mahe",
+        'name' => "Anse Boileau Mahé",
         'image' => "src='../images/destinations_images/AnseBoileauMahe.jpeg'",
         'costByDay' => 200,
         'changeOfScenery' => 3,
@@ -262,7 +244,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Quebec",
+        'name' => "Québec",
         'image' => "src='../images/destinations_images/Quebec.jpeg'",
         'costByDay' => 120,
         'changeOfScenery' => 3,
@@ -352,7 +334,7 @@ $destinations = [
     ],
 
     [
-        'name' => "Oulan-Bator",
+        'name' => "Oulan Bator",
         'image' => "src='images/destinations_images/Oulan-Bator.jpeg'",
         'costByDay' => 30,
         'changeOfScenery' => 3,

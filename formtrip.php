@@ -46,9 +46,9 @@ if (!empty($_POST)) {
     <h2>
         <?php if (!empty($filteredDestinations)) { ?>
             <?php if (count($filteredDestinations) < 2) { ?>
-                <?= count($filteredDestinations) ?> voyage correspond à vos critères
+                Nous vous proposons <?= count($filteredDestinations) ?> voyage
             <?php } else { ?>
-                <?= count($filteredDestinations) ?> voyages correspondent à vos critères
+                Nous vous proposons <?= count($filteredDestinations) ?> voyages
             <?php } ?>
         <?php } ?>
     </h2>
