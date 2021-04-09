@@ -24,7 +24,8 @@ And also animate.css (https://animate.style/) for animations & Google Fonts API 
 
 ## THE DEMO !
 
-http://wcs-projet1-very-wild-trip.herokuapp.com/
+<a href="http://wcs-projet1-very-wild-trip.herokuapp.com/" target="_blank"> http://wcs-projet1-very-wild-trip.herokuapp.com/</a>
+
 
 ## Files & Directories
 
