@@ -2,8 +2,6 @@
 
 ![Image of logo](https://raw.githubusercontent.com/leamahler85/images/main/logo-picture.png)
 
-![Image of index.php](https://raw.githubusercontent.com/leamahler85/images/main/first-page.png)
-
 ## What is *Very Wild Trip* ?
 
 We are a team of students at the Wild Code School Toulouse and *Very Wild Trip* is our very first team project !
@@ -24,7 +22,7 @@ And also animate.css (https://animate.style/) for animations & Google Fonts API 
 
 ## THE DEMO !
 
-http://wcs-projet1-very-wild-trip.herokuapp.com
+http://verywildtrip.mydevprojects.io/
 
 
 ## Files & Directories
